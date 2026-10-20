@@ -1518,5 +1518,51 @@
             }
         });
     </script>
+    <style>
+        .video-stage { position: relative; overflow: hidden; }
+        .video-stage video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+            z-index: 10;
+        }
+        .video-card.playing .video-cover,
+        .video-card.playing .vc-img {
+            display: none !important;
+        }
+        .video-card.playing video {
+            display: block !important;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.video-card').forEach(card => {
+                const cover = card.querySelector('.video-cover');
+                const video = card.querySelector('video');
+                if (cover && video) {
+                    cover.style.cursor = 'pointer';
+                    cover.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        // 暂停其他正在播放的视频
+                        document.querySelectorAll('.video-card video').forEach(v => {
+                            if (v !== video) {
+                                v.pause();
+                                v.closest('.video-card')?.classList.remove('playing');
+                            }
+                        });
+                        // 切换到当前视频并开始播放
+                        card.classList.add('playing');
+                        video.play().catch(err => {
+                            console.warn('播放受阻，请检查视频源或编码:', err);
+                        });
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
