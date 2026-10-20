@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TikTok 短视频编导 & 内容主管 · 谢某个人作品集</title>
-    <meta name="description" content="TikTok 跨境电商 · 爆款短视频编导 · 内容主管 · 自然流全链路操盘手">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230EA5E9'/%3E%3Cstop offset='1' stop-color='%232563EB'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='88' height='88' x='6' y='6' rx='20' fill='url(%23g)'/%3E%3Ctext x='50' y='66' text-anchor='middle' font-size='44' font-weight='800' fill='white' font-family='Arial,sans-serif'%3ETK%3C/text%3E%3C/svg%3E">
+    <title>谢龙援 · 个人作品集 | TikTok短视频内容主管</title>
+    <meta name="description" content="谢龙援 · TikTok美区短视频内容主管 · 电商带货编导 · 5年专业影视与商业实战">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300F2FE'/%3E%3Cstop offset='1' stop-color='%230072FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='88' height='88' x='6' y='6' rx='20' fill='url(%23g)'/%3E%3Ctext x='50' y='66' text-anchor='middle' font-size='42' font-weight='900' fill='white' font-family='sans-serif'%3E谢%3C/text%3E%3C/svg%3E">
 
     <style>
         /* ============================================
-           主题变量 - 硬朗钛银浅色 & 深空战术暗黑
+           主题变量 - 战术深空暗黑 & 钛银冷冽浅色
            ============================================ */
         :root {
-            --bg: #F3F5F8;
+            --bg: #F4F6F9;
             --bg-elevated: #FFFFFF;
-            --bg-soft: #E6EBF2;
+            --bg-soft: #E8EEF5;
             --text: #0B0F19;
             --text-soft: #475569;
             --text-mute: #64748B;
@@ -27,9 +27,8 @@
             --accent-glow: rgba(2, 132, 199, 0.28);
             --accent-gradient: linear-gradient(135deg, #00C6FF 0%, #0072FF 60%, #10B981 100%);
             --accent-gradient-soft: linear-gradient(135deg, rgba(0,198,255,0.14), rgba(0,114,255,0.14), rgba(16,185,129,0.14));
-            --glass-bg: rgba(255, 255, 255, 0.72);
+            --glass-bg: rgba(255, 255, 255, 0.75);
             --glass-border: rgba(203, 213, 225, 0.8);
-            --glass-shadow: 0 8px 32px rgba(15, 23, 42, 0.08);
             --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
             --shadow-md: 0 6px 24px rgba(15, 23, 42, 0.08);
             --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.12);
@@ -57,7 +56,6 @@
             --accent-gradient-soft: linear-gradient(135deg, rgba(0,242,254,0.16), rgba(79,172,254,0.16), rgba(16,185,129,0.16));
             --glass-bg: rgba(15, 21, 34, 0.72);
             --glass-border: rgba(30, 41, 59, 0.85);
-            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
             --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
             --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.5);
             --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.65);
@@ -67,159 +65,79 @@
                              radial-gradient(ellipse 60% 50% at 80% 50%, rgba(59,130,246,0.08) 0%, transparent 60%);
         }
 
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-            -webkit-font-smoothing: antialiased;
-        }
-
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; -webkit-font-smoothing: antialiased; }
         body {
             font-family: 'PingFang SC', 'HarmonyOS Sans SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            overflow-x: hidden;
-            transition: background 0.5s ease, color 0.5s ease;
-            position: relative;
+            background: var(--bg); color: var(--text); line-height: 1.6;
+            overflow-x: hidden; transition: background 0.5s ease, color 0.5s ease; position: relative;
         }
 
         /* 战术网格背景 */
         body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
+            content: ''; position: fixed; inset: 0;
             background-image:
                 linear-gradient(var(--grid-color) 1px, transparent 1px),
                 linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-            background-size: 72px 72px;
-            pointer-events: none;
-            z-index: 0;
+            background-size: 72px 72px; pointer-events: none; z-index: 0;
             mask-image: radial-gradient(ellipse at center, black 30%, transparent 85%);
             -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 85%);
         }
 
-        /* 光标跟随光晕 */
+        /* 光标光晕跟随 */
         .cursor-glow {
-            position: fixed;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: 0;
+            position: fixed; width: 500px; height: 500px; border-radius: 50%;
+            pointer-events: none; z-index: 0;
             background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-            transform: translate(-50%, -50%);
-            opacity: 0;
-            transition: opacity 0.6s ease, transform 0.5s ease;
-            filter: blur(45px);
+            transform: translate(-50%, -50%); opacity: 0;
+            transition: opacity 0.6s ease, transform 0.5s ease; filter: blur(45px);
         }
         .cursor-glow.hot { transform: translate(-50%, -50%) scale(1.35); }
 
-        /* 浮动几何光影 */
-        .floating-shapes {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            z-index: 0;
-            overflow: hidden;
-        }
-        .float-shape {
-            position: absolute;
-            border-radius: 50%;
-            opacity: 0.04;
-            animation: floatShape 20s ease-in-out infinite;
-        }
+        .floating-shapes { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
+        .float-shape { position: absolute; border-radius: 50%; opacity: 0.04; animation: floatShape 20s ease-in-out infinite; }
         [data-theme="dark"] .float-shape { opacity: 0.06; }
         .float-shape:nth-child(1) { width: 320px; height: 320px; background: var(--accent); top: 15%; left: -5%; }
         .float-shape:nth-child(2) { width: 220px; height: 220px; background: var(--accent-2); top: 60%; right: -3%; animation-delay: -7s; }
         .float-shape:nth-child(3) { width: 180px; height: 180px; background: var(--accent-3); top: 30%; left: 60%; animation-delay: -14s; }
-
-        @keyframes floatShape {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(25px, -30px) scale(1.08); }
-        }
+        @keyframes floatShape { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(25px, -30px) scale(1.08); } }
 
         .num {
             font-family: 'DIN Alternate', 'JetBrains Mono', 'Arial Black', sans-serif;
-            font-weight: 800;
-            background: var(--accent-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            font-weight: 800; background: var(--accent-gradient);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
         }
 
         .label {
             font-family: 'JetBrains Mono', 'Courier New', monospace;
-            font-size: 0.72rem;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--text-mute);
-            font-weight: 600;
+            font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+            color: var(--text-mute); font-weight: 600;
         }
 
-        .wrap {
-            max-width: 1320px;
-            margin: 0 auto;
-            padding: 0 32px;
-            position: relative;
-            z-index: 2;
-        }
-        @media (max-width: 720px) {
-            .wrap { padding: 0 20px; }
-            html { font-size: 15px; }
-        }
+        .wrap { max-width: 1320px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 2; }
+        @media (max-width: 720px) { .wrap { padding: 0 20px; } html { font-size: 15px; } }
 
-        /* 顶部进度条 */
         .scroll-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 999; pointer-events: none; }
         .scroll-progress span { display: block; height: 100%; width: 0; background: var(--accent-gradient); box-shadow: 0 0 12px var(--accent-glow); }
 
-        /* 导航栏 */
+        /* 顶部导航 */
         .nav {
-            position: fixed;
-            top: 22px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 100;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            background: rgba(255, 255, 255, 0.90);
-            backdrop-filter: blur(28px) saturate(200%);
+            position: fixed; top: 22px; left: 50%; transform: translateX(-50%);
+            z-index: 100; display: flex; align-items: center; gap: 6px;
+            background: rgba(255, 255, 255, 0.90); backdrop-filter: blur(28px) saturate(200%);
             -webkit-backdrop-filter: blur(28px) saturate(200%);
-            border: 1.5px solid var(--line);
-            border-radius: 999px;
-            padding: 10px 10px 10px 22px;
-            box-shadow: var(--shadow-md);
-            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1.5px solid var(--line); border-radius: 999px; padding: 10px 10px 10px 22px;
+            box-shadow: var(--shadow-md); transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
         }
-        [data-theme="dark"] .nav {
-            background: rgba(15, 21, 34, 0.88);
-            border-color: rgba(148, 163, 184, 0.2);
-        }
+        [data-theme="dark"] .nav { background: rgba(15, 21, 34, 0.88); border-color: rgba(148, 163, 184, 0.2); }
         .nav.scrolled { top: 12px; }
-
         .nav-logo {
-            font-weight: 800;
-            font-size: 0.95rem;
-            letter-spacing: 0.06em;
-            color: var(--text);
-            padding-right: 16px;
-            border-right: 1.5px solid var(--line);
-            margin-right: 4px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            font-weight: 800; font-size: 0.95rem; letter-spacing: 0.06em;
+            color: var(--text); padding-right: 16px; border-right: 1.5px solid var(--line);
+            margin-right: 4px; display: flex; align-items: center; gap: 8px;
         }
         .nav-logo-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--accent-gradient);
+            width: 8px; height: 8px; border-radius: 50%; background: var(--accent-gradient);
             box-shadow: 0 0 0 3px var(--accent-soft), 0 0 10px var(--accent-glow);
             animation: pulse 2.4s ease-in-out infinite;
         }
@@ -227,47 +145,25 @@
             0%, 100% { box-shadow: 0 0 0 3px var(--accent-soft), 0 0 10px var(--accent-glow); }
             50% { box-shadow: 0 0 0 6px var(--accent-soft), 0 0 20px var(--accent-glow); }
         }
-
         .nav-links { display: flex; gap: 2px; list-style: none; }
         .nav-links a {
-            display: inline-block;
-            padding: 9px 18px;
-            font-size: 0.88rem;
-            color: var(--text-soft);
-            text-decoration: none;
-            border-radius: 999px;
-            font-weight: 600;
-            transition: all 0.35s ease;
-            position: relative;
+            display: inline-block; padding: 9px 18px; font-size: 0.88rem;
+            color: var(--text-soft); text-decoration: none; border-radius: 999px;
+            font-weight: 600; transition: all 0.35s ease; position: relative;
         }
-        .nav-links a:hover, .nav-links a.active {
-            color: var(--text);
-            background: var(--accent-soft);
-        }
+        .nav-links a:hover, .nav-links a.active { color: var(--text); background: var(--accent-soft); }
         .nav-links a.active::after {
             content: ''; position: absolute; left: 50%; bottom: 5px; margin-left: -2px;
             width: 4px; height: 4px; border-radius: 50%; background: var(--accent);
         }
 
         .theme-toggle {
-            width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            background: var(--bg-soft);
-            border: 1px solid var(--line);
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            color: var(--text);
-            transition: all 0.4s ease;
-            margin-left: 6px;
+            width: 38px; height: 38px; border-radius: 50%; background: var(--bg-soft);
+            border: 1px solid var(--line); display: inline-flex; align-items: center;
+            justify-content: center; cursor: pointer; color: var(--text);
+            transition: all 0.4s ease; margin-left: 6px;
         }
-        .theme-toggle:hover {
-            transform: rotate(180deg);
-            border-color: var(--accent);
-            color: var(--accent);
-        }
+        .theme-toggle:hover { transform: rotate(180deg); border-color: var(--accent); color: var(--accent); }
         .theme-toggle svg { width: 16px; height: 16px; }
         [data-theme="light"] .icon-moon { display: none; }
         [data-theme="dark"] .icon-sun { display: none; }
@@ -279,299 +175,117 @@
         }
 
         /* ============================================
-           Hero 区 - 硬核主理人
+           Hero 首屏
            ============================================ */
         .hero {
-            padding-top: 130px;
-            padding-bottom: 60px;
-            display: flex;
-            align-items: center;
-            position: relative;
+            padding-top: 130px; padding-bottom: 60px; display: flex;
+            align-items: center; position: relative;
         }
-        .hero::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: var(--hero-gradient);
-            pointer-events: none;
-            z-index: 1;
-        }
+        .hero::before { content: ''; position: absolute; inset: 0; background: var(--hero-gradient); pointer-events: none; z-index: 1; }
         .hero-grid {
-            display: grid;
-            grid-template-columns: 1.15fr 0.85fr;
-            gap: 64px;
-            align-items: center;
-            width: 100%;
-            position: relative;
-            z-index: 2;
+            display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px;
+            align-items: center; width: 100%; position: relative; z-index: 2;
         }
-        .hero-eyebrow {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 24px;
-        }
-        .hero-eyebrow .line-deco {
-            flex: 0 0 60px;
-            height: 2px;
-            background: var(--accent-gradient);
-        }
-        .hero-title {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-bottom: 24px;
-        }
+        .hero-eyebrow { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+        .hero-eyebrow .line-deco { flex: 0 0 60px; height: 2px; background: var(--accent-gradient); }
+        .hero-title { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
         .hero-name-main {
-            font-size: clamp(2.6rem, 5.5vw, 4.5rem);
-            font-weight: 900;
-            letter-spacing: -0.03em;
-            line-height: 1.05;
-            color: var(--text);
-            text-transform: uppercase;
-            transition: transform 0.4s ease;
-        }
-        .hero-name-main:hover {
-            transform: translateX(6px);
+            font-size: clamp(2.8rem, 5.8vw, 4.6rem); font-weight: 900;
+            letter-spacing: -0.02em; line-height: 1.05; color: var(--text);
         }
         .hero-sub {
-            display: inline-block;
-            font-size: clamp(2rem, 4.8vw, 3.8rem);
-            font-weight: 900;
-            line-height: 1.08;
-            letter-spacing: -0.02em;
-            color: transparent;
-            -webkit-text-stroke: 1.8px var(--text);
-            will-change: transform;
+            display: inline-block; font-size: clamp(1.8rem, 4.2vw, 3.4rem);
+            font-weight: 900; line-height: 1.1; letter-spacing: -0.02em;
+            color: transparent; -webkit-text-stroke: 1.8px var(--text);
         }
-        .hero-sub .ch {
-            display: inline-block;
-            opacity: 0;
-            transform: translateY(20px);
-            animation: chPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-        }
+        .hero-sub .ch { display: inline-block; opacity: 0; transform: translateY(20px); animation: chPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
         .hero-sub .ch.sp { width: 0.25em; }
         .hero-sub .hl {
-            background: var(--accent-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            -webkit-text-stroke: 0;
+            background: var(--accent-gradient); -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; background-clip: text; -webkit-text-stroke: 0;
         }
-        @keyframes chPop {
-            to { opacity: 1; transform: translateY(0); }
-        }
+        @keyframes chPop { to { opacity: 1; transform: translateY(0); } }
 
-        .hero-meta {
-            display: flex;
-            gap: 40px;
-            margin-bottom: 26px;
-            flex-wrap: wrap;
-        }
+        .hero-meta { display: flex; gap: 36px; margin-bottom: 26px; flex-wrap: wrap; }
         .meta-item .label { display: block; margin-bottom: 4px; }
         .meta-item .val { font-size: 0.95rem; color: var(--text); font-weight: 700; }
 
-        .hero-desc {
-            max-width: 560px;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: var(--text-soft);
-            margin-bottom: 30px;
-        }
+        .hero-desc { max-width: 580px; font-size: 1.05rem; line-height: 1.8; color: var(--text-soft); margin-bottom: 30px; }
+        .hero-cta { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
 
-        .hero-cta {
-            display: flex;
-            gap: 14px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
         .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 15px 28px;
-            border-radius: 999px;
-            font-size: 0.92rem;
-            font-weight: 700;
-            text-decoration: none;
-            cursor: pointer;
-            border: 1.5px solid transparent;
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-            position: relative;
-            overflow: hidden;
+            display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px;
+            border-radius: 999px; font-size: 0.92rem; font-weight: 700; text-decoration: none;
+            cursor: pointer; border: 1.5px solid transparent; transition: all 0.4s ease;
         }
-        .btn-primary {
-            background: var(--text);
-            color: var(--bg);
-        }
+        .btn-primary { background: var(--text); color: var(--bg); }
         .btn-primary:hover {
-            transform: translateY(-3px);
-            background: var(--accent);
-            color: #fff;
-            box-shadow: 0 14px 36px var(--accent-glow);
+            transform: translateY(-3px); background: var(--accent); color: #fff; box-shadow: 0 14px 36px var(--accent-glow);
         }
-        .btn-ghost {
-            background: transparent;
-            color: var(--text);
-            border-color: var(--line-strong);
-        }
-        .btn-ghost:hover {
-            background: var(--bg-soft);
-            transform: translateY(-3px);
-            border-color: var(--accent);
-        }
+        .btn-ghost { background: transparent; color: var(--text); border-color: var(--line-strong); }
+        .btn-ghost:hover { background: var(--bg-soft); transform: translateY(-3px); border-color: var(--accent); }
         .btn-count {
-            display: inline-flex; align-items: center; justify-content: center;
-            min-width: 32px; height: 20px; padding: 0 8px;
-            border-radius: 999px; background: var(--accent-gradient);
-            color: #fff; font-size: 0.72rem; font-weight: 800;
+            display: inline-flex; align-items: center; justify-content: center; min-width: 32px; height: 20px;
+            padding: 0 8px; border-radius: 999px; background: var(--accent-gradient); color: #fff; font-size: 0.72rem; font-weight: 800;
         }
         .btn svg { width: 15px; height: 15px; transition: transform 0.3s ease; }
         .btn:hover svg { transform: translateX(5px); }
 
-        /* 右侧 3D 战力矩阵宇宙 */
-        .ip-universe {
-            position: relative;
-            width: 380px;
-            height: 380px;
-            margin: 0 auto;
-            perspective: 1400px;
-        }
+        /* 右侧 3D 灵感宇宙 */
+        .ip-universe { position: relative; width: 380px; height: 380px; margin: 0 auto; perspective: 1400px; }
         .ip-core {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 200px;
-            height: 200px;
-            transform: translate(-50%, -50%);
-            transform-style: preserve-3d;
-            cursor: grab;
-            z-index: 5;
+            position: absolute; top: 50%; left: 50%; width: 200px; height: 200px;
+            transform: translate(-50%, -50%); transform-style: preserve-3d; cursor: grab; z-index: 5;
         }
         .ip-core .ip-face {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            overflow: hidden;
-            box-shadow:
-                0 30px 60px -20px rgba(0, 0, 0, 0.6),
-                0 0 0 6px var(--bg),
-                0 0 0 8px var(--line);
-            animation: ipBreathe 5s ease-in-out infinite;
+            position: relative; width: 100%; height: 100%; border-radius: 50%; overflow: hidden;
+            box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6), 0 0 0 6px var(--bg), 0 0 0 8px var(--line);
+            animation: ipBreathe 5s ease-in-out infinite; background: var(--bg-elevated);
         }
-        @keyframes ipBreathe {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.04); }
-        }
-        .ip-core .ip-face img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
+        @keyframes ipBreathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.04); } }
+        .ip-core .ip-face img { width: 100%; height: 100%; object-fit: cover; display: block; }
         .ip-core .ip-aura {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 240px;
-            height: 240px;
-            border-radius: 50%;
-            background: radial-gradient(circle, var(--accent-glow), transparent 65%);
-            transform: translate(-50%, -50%);
-            z-index: -1;
-            filter: blur(22px);
-            pointer-events: none;
+            position: absolute; top: 50%; left: 50%; width: 240px; height: 240px; border-radius: 50%;
+            background: radial-gradient(circle, var(--accent-glow), transparent 65%); transform: translate(-50%, -50%);
+            z-index: -1; filter: blur(22px); pointer-events: none;
         }
         .ip-core .ip-name {
-            position: absolute;
-            bottom: -36px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--text);
-            color: var(--bg);
-            font-size: 0.72rem;
-            letter-spacing: 0.16em;
-            font-weight: 800;
-            padding: 5px 14px;
-            border-radius: 999px;
-            white-space: nowrap;
+            position: absolute; bottom: -36px; left: 50%; transform: translateX(-50%);
+            background: var(--text); color: var(--bg); font-size: 0.72rem; letter-spacing: 0.16em;
+            font-weight: 800; padding: 5px 14px; border-radius: 999px; white-space: nowrap;
         }
         .ip-core .ip-ring {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            border-radius: 50%;
-            border: 1.5px dashed var(--accent);
-            opacity: 0.25;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
+            position: absolute; top: 50%; left: 50%; border-radius: 50%; border: 1.5px dashed var(--accent);
+            opacity: 0.25; transform: translate(-50%, -50%); pointer-events: none;
         }
         .ip-core .ip-ring-1 { width: 250px; height: 250px; animation: ringSpin 24s linear infinite; }
         .ip-core .ip-ring-2 { width: 305px; height: 305px; border-style: dotted; animation: ringSpin 36s linear infinite reverse; opacity: 0.15; }
         @keyframes ringSpin { to { transform: translate(-50%, -50%) rotate(360deg); } }
 
         .orbiter {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: var(--glass-bg);
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
-            border: 1px solid var(--glass-border);
-            border-radius: 999px;
-            padding: 8px 14px;
-            font-size: 0.78rem;
-            font-weight: 700;
-            color: var(--text);
-            box-shadow: var(--shadow-md);
-            white-space: nowrap;
-            z-index: 3;
+            position: absolute; top: 50%; left: 50%; display: inline-flex; align-items: center; gap: 6px;
+            background: var(--glass-bg); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+            border: 1px solid var(--glass-border); border-radius: 999px; padding: 8px 14px; font-size: 0.78rem;
+            font-weight: 700; color: var(--text); box-shadow: var(--shadow-md); white-space: nowrap; z-index: 3;
             transform: translate(-50%, -50%) rotate(var(--a, 0deg)) translateX(var(--r, 150px)) rotate(calc(-1 * var(--a, 0deg)));
-            animation: orbitFloat 4.5s ease-in-out infinite;
-            animation-delay: var(--d, 0s);
-            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-            cursor: pointer;
-            user-select: none;
+            animation: orbitFloat 4.5s ease-in-out infinite; animation-delay: var(--d, 0s);
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1); cursor: pointer; user-select: none;
         }
         .orbiter:hover, .orbiter.accent {
-            background: var(--accent-gradient);
-            color: #fff;
-            border-color: transparent;
-            box-shadow: 0 10px 28px var(--accent-glow);
+            background: var(--accent-gradient); color: #fff; border-color: transparent; box-shadow: 0 10px 28px var(--accent-glow);
         }
         .orbiter .o-ico {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 22px;
-            height: 22px;
-            border-radius: 6px;
-            background: var(--bg-soft);
-            color: var(--accent);
-            font-size: 0.75rem;
-            font-weight: 800;
+            display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px;
+            border-radius: 6px; background: var(--bg-soft); color: var(--accent); font-size: 0.75rem; font-weight: 800;
         }
-        .orbiter:hover .o-ico, .orbiter.accent .o-ico {
-            background: rgba(255, 255, 255, 0.2);
-            color: #fff;
-        }
-        @keyframes orbitFloat {
-            0%, 100% { margin-top: 0; }
-            50% { margin-top: -10px; }
-        }
-        .ip-universe:hover .orbiter {
-            transform: translate(-50%, -50%) rotate(var(--a, 0deg)) translateX(calc(var(--r, 150px) * 1.18)) rotate(calc(-1 * var(--a, 0deg)));
-        }
+        .orbiter:hover .o-ico, .orbiter.accent .o-ico { background: rgba(255, 255, 255, 0.2); color: #fff; }
+        @keyframes orbitFloat { 0%, 100% { margin-top: 0; } 50% { margin-top: -10px; } }
+        .ip-universe:hover .orbiter { transform: translate(-50%, -50%) rotate(var(--a, 0deg)) translateX(calc(var(--r, 150px) * 1.18)) rotate(calc(-1 * var(--a, 0deg))); }
         .ip-universe.focused .orbiter:not(.picked) { opacity: 0.28; }
         .orbiter.picked { box-shadow: 0 0 0 2px var(--accent), 0 10px 26px var(--accent-glow); }
         .ip-focus-label {
-            position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);
-            font-size: 0.78rem; font-weight: 800; letter-spacing: 0.12em;
-            color: var(--accent); white-space: nowrap; opacity: 0; transition: opacity 0.35s ease;
+            position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); font-size: 0.78rem;
+            font-weight: 800; letter-spacing: 0.12em; color: var(--accent); white-space: nowrap; opacity: 0; transition: opacity 0.35s ease;
         }
         .ip-universe.focused .ip-focus-label { opacity: 1; }
         .ip-caption { margin-top: 54px; text-align: center; }
@@ -583,292 +297,126 @@
             .ip-universe { width: 320px; height: 320px; }
         }
 
-        /* 跑马灯装饰条 */
+        /* 跑马灯 */
         .marquee {
-            overflow: hidden;
-            padding: 15px 0;
-            border-top: 1px solid var(--line);
-            border-bottom: 1px solid var(--line);
-            position: relative;
-            z-index: 2;
+            overflow: hidden; padding: 15px 0; border-top: 1px solid var(--line);
+            border-bottom: 1px solid var(--line); position: relative; z-index: 2;
         }
-        .marquee-track {
-            display: flex;
-            gap: 36px;
-            animation: marquee 30s linear infinite;
-            white-space: nowrap;
-            width: max-content;
-        }
+        .marquee-track { display: flex; gap: 36px; animation: marquee 32s linear infinite; white-space: nowrap; width: max-content; }
         .marquee-item {
-            font-size: clamp(1rem, 1.8vw, 1.35rem);
-            font-weight: 900;
-            letter-spacing: 0.04em;
-            text-transform: uppercase;
-            -webkit-text-stroke: 1.2px var(--text);
-            -webkit-text-fill-color: transparent;
-            display: inline-flex;
-            align-items: center;
-            gap: 36px;
+            font-size: clamp(1rem, 1.8vw, 1.35rem); font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase;
+            -webkit-text-stroke: 1.2px var(--text); -webkit-text-fill-color: transparent; display: inline-flex; align-items: center; gap: 36px;
         }
-        .marquee-item::after {
-            content: '⚡';
-            font-size: 0.7em;
-            -webkit-text-stroke: 0;
-            -webkit-text-fill-color: var(--accent);
-        }
-        @keyframes marquee {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
+        .marquee-item::after { content: '⚡'; font-size: 0.7em; -webkit-text-stroke: 0; -webkit-text-fill-color: var(--accent); }
+        @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
         /* 通用 Section */
         section { padding: 84px 0; position: relative; }
-        .section-head {
-            display: grid;
-            grid-template-columns: 200px 1fr;
-            gap: 60px;
-            align-items: start;
-            margin-bottom: 44px;
-        }
-        .section-index {
-            display: flex;
-            align-items: baseline;
-            gap: 10px;
-            font-family: 'JetBrains Mono', monospace;
-            color: var(--text-mute);
-            font-weight: 700;
-        }
+        .section-head { display: grid; grid-template-columns: 200px 1fr; gap: 60px; align-items: start; margin-bottom: 44px; }
+        .section-index { display: flex; align-items: baseline; gap: 10px; font-family: 'JetBrains Mono', monospace; color: var(--text-mute); font-weight: 700; }
         .section-index .num { font-size: 1.4rem; }
-        .section-title {
-            font-size: clamp(1.9rem, 3.6vw, 2.8rem);
-            font-weight: 900;
-            letter-spacing: -0.03em;
-            line-height: 1.15;
-        }
-        .section-title .it {
-            background: var(--accent-gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .section-kicker {
-            margin-top: 12px;
-            color: var(--text-soft);
-            font-size: 1.02rem;
-            max-width: 580px;
-        }
-        @media (max-width: 720px) {
-            .section-head { grid-template-columns: 1fr; gap: 12px; }
-        }
+        .section-title { font-size: clamp(1.9rem, 3.6vw, 2.8rem); font-weight: 900; letter-spacing: -0.03em; line-height: 1.15; }
+        .section-title .it { background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .section-kicker { margin-top: 12px; color: var(--text-soft); font-size: 1.02rem; max-width: 580px; }
+        @media (max-width: 720px) { .section-head { grid-template-columns: 1fr; gap: 12px; } }
 
-        /* ============================================
-           作品案例区 (#works)
-           ============================================ */
-        .works-summary {
-            display: flex; flex-wrap: wrap; justify-content: center;
-            gap: 16px 48px; margin: -10px 0 40px;
-        }
+        /* 作品板块 */
+        .works-summary { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px 48px; margin: -10px 0 40px; }
         .works-summary div { display: flex; align-items: baseline; gap: 8px; }
         .works-summary b {
-            font-size: 1.65rem; font-weight: 900;
-            background: var(--accent-gradient);
+            font-size: 1.65rem; font-weight: 900; background: var(--accent-gradient);
             -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
         }
         .works-summary span { font-size: 0.8rem; color: var(--text-mute); font-weight: 600; }
 
         .works-tabs {
-            display: flex;
-            gap: 6px;
-            margin: 0 auto 48px;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: fit-content;
-            background: var(--bg-elevated);
-            border: 1.5px solid var(--line);
-            border-radius: 999px;
-            padding: 7px;
+            display: flex; gap: 6px; margin: 0 auto 48px; flex-wrap: wrap; justify-content: center;
+            width: fit-content; background: var(--bg-elevated); border: 1.5px solid var(--line); border-radius: 999px; padding: 7px;
             box-shadow: var(--shadow-md);
         }
         .works-tab {
-            padding: 10px 24px;
-            background: transparent;
-            border: 1px solid transparent;
-            font-size: 0.92rem;
-            cursor: pointer;
-            color: var(--text-soft);
-            font-weight: 700;
-            transition: all 0.35s ease;
-            border-radius: 999px;
+            padding: 10px 24px; background: transparent; border: 1px solid transparent; font-size: 0.92rem;
+            cursor: pointer; color: var(--text-soft); font-weight: 700; transition: all 0.35s ease; border-radius: 999px;
         }
         .works-tab:hover { color: var(--text); background: var(--bg-soft); }
         .works-tab.active {
-            color: var(--accent);
-            background: var(--accent-soft);
-            border-color: var(--accent);
-            box-shadow: 0 4px 16px var(--accent-glow);
+            color: var(--accent); background: var(--accent-soft); border-color: var(--accent); box-shadow: 0 4px 16px var(--accent-glow);
         }
         .tab-count {
-            display: inline-block; margin-left: 6px; padding: 1px 7px;
-            border-radius: 999px; background: var(--bg-soft);
-            font-size: 0.7rem; color: var(--text-mute);
+            display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px;
+            background: var(--bg-soft); font-size: 0.7rem; color: var(--text-mute);
         }
         .works-tab.active .tab-count { background: var(--accent); color: #fff; }
 
         .works-pane { display: none; animation: fadeIn 0.45s ease; }
         .works-pane.active { display: block; }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
-        .video-section-title {
-            display: flex; align-items: center; gap: 12px;
-            margin: 44px 0 24px; font-size: 1.15rem; font-weight: 800;
-        }
-        .video-section-title::before {
-            content: ''; width: 28px; height: 3px;
-            background: var(--accent-gradient); border-radius: 2px;
-        }
-        .video-section-title .it {
-            font-family: 'JetBrains Mono', monospace;
-            font-weight: 500; color: var(--text-mute); font-size: 0.88rem;
-        }
+        .video-section-title { display: flex; align-items: center; gap: 12px; margin: 44px 0 24px; font-size: 1.15rem; font-weight: 800; }
+        .video-section-title::before { content: ''; width: 28px; height: 3px; background: var(--accent-gradient); border-radius: 2px; }
+        .video-section-title .it { font-family: 'JetBrains Mono', monospace; font-weight: 500; color: var(--text-mute); font-size: 0.88rem; }
 
-        .works-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 28px;
-        }
+        .works-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 28px; }
 
         .video-card, .image-card {
-            background: var(--bg-elevated);
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid var(--line);
-            transition: all 0.4s ease;
-            cursor: pointer;
-            position: relative;
+            background: var(--bg-elevated); border-radius: 16px; overflow: hidden; border: 1px solid var(--line);
+            transition: all 0.4s ease; cursor: pointer; position: relative;
         }
-        .video-card:hover, .image-card:hover {
-            transform: translateY(-8px);
-            border-color: var(--accent);
-            box-shadow: var(--shadow-glow);
-        }
-        .video-card .video-stage, .image-card .ic-stage {
-            position: relative;
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            background: #0B111E;
-            overflow: hidden;
-        }
-        .video-card .vc-img, .image-card img {
-            width: 100%; height: 100%; object-fit: cover; display: block;
-            transition: transform 0.6s ease;
-        }
+        .video-card:hover, .image-card:hover { transform: translateY(-8px); border-color: var(--accent); box-shadow: var(--shadow-glow); }
+        .video-card .video-stage, .image-card .ic-stage { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #0B111E; overflow: hidden; }
+        .video-card .vc-img, .image-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s ease; }
         .video-card:hover .vc-img, .image-card:hover img { transform: scale(1.05); }
         .video-card .video-cover {
-            position: absolute; inset: 0; z-index: 3;
-            display: flex; flex-direction: column; justify-content: space-between;
+            position: absolute; inset: 0; z-index: 3; display: flex; flex-direction: column; justify-content: space-between;
             padding: 14px 16px; color: #fff;
             background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, transparent 35%, transparent 60%, rgba(0,0,0,0.7) 100%);
         }
         .video-card .vc-top {
-            display: flex; align-items: center; gap: 8px;
-            font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700;
+            display: flex; align-items: center; gap: 8px; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700;
         }
-        .video-card .vc-top::before {
-            content: ''; width: 7px; height: 7px; border-radius: 50%;
-            background: var(--accent-gradient);
-        }
+        .video-card .vc-top::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--accent-gradient); }
         .video-card .vc-icon {
-            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            width: 60px; height: 60px; border-radius: 50%;
-            background: rgba(14, 165, 233, 0.22); backdrop-filter: blur(10px);
-            border: 1.5px solid rgba(255,255,255,0.4);
-            display: flex; align-items: center; justify-content: center;
-            color: #fff; font-size: 1.3rem; transition: all 0.35s ease;
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 56px; height: 56px; border-radius: 50%;
+            background: rgba(14, 165, 233, 0.22); backdrop-filter: blur(10px); border: 1.5px solid rgba(255,255,255,0.4);
+            display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.25rem; transition: all 0.35s ease;
         }
-        .video-card:hover .vc-icon {
-            background: var(--accent-gradient); border-color: transparent;
-            transform: translate(-50%, -50%) scale(1.12);
-        }
+        .video-card:hover .vc-icon { background: var(--accent-gradient); border-color: transparent; transform: translate(-50%, -50%) scale(1.12); }
         .video-card .vc-bottom { font-size: 0.92rem; font-weight: 700; }
         .video-card .v-info, .image-card .ic-info { padding: 18px 22px 22px; }
         .video-card .v-num, .image-card .ic-num {
-            font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
-            font-weight: 700; color: var(--accent); margin-bottom: 6px;
+            font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; font-weight: 700; color: var(--accent); margin-bottom: 6px;
         }
         .video-card h3, .image-card h3 { font-size: 1.08rem; font-weight: 800; margin-bottom: 6px; }
         .video-card p, .image-card p { font-size: 0.86rem; color: var(--text-soft); line-height: 1.55; }
         .video-card .v-role { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; }
         .video-card .v-role-label { font-size: 0.72rem; font-weight: 800; color: var(--accent); }
         .video-card .role-chip {
-            padding: 3px 10px; font-size: 0.72rem; color: var(--text-soft);
-            background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
+            padding: 3px 10px; font-size: 0.72rem; color: var(--text-soft); background: var(--bg-soft); border: 1px solid var(--line); border-radius: 999px;
         }
         .video-card .v-size {
-            display: inline-block; margin-top: 10px; font-size: 0.74rem; font-weight: 700;
-            color: var(--accent); padding: 4px 10px; background: var(--accent-soft); border-radius: 6px;
+            display: inline-block; margin-top: 10px; font-size: 0.74rem; font-weight: 700; color: var(--accent);
+            padding: 4px 10px; background: var(--accent-soft); border-radius: 6px;
         }
 
-        /* 3D 轮播画廊 (SOP & 数据看板) */
-        .works-subtitle {
-            display: flex; align-items: center; gap: 12px;
-            margin: 36px 0 20px; font-size: 1.08rem; font-weight: 800;
-        }
-        .works-subtitle::before {
-            content: ''; width: 28px; height: 3px; background: var(--accent-gradient);
-        }
-        .carousel { position: relative; }
-        .carousel-track {
-            display: flex; gap: 28px; overflow-x: auto; padding: 24px 12%;
-            scroll-snap-type: x mandatory; scrollbar-width: none; cursor: grab;
-        }
-        .carousel-track::-webkit-scrollbar { display: none; }
-        .carousel-track > * {
-            scroll-snap-align: center; flex-shrink: 0;
-            transition: transform 0.45s ease, opacity 0.45s ease;
-            opacity: 0.55; transform: scale(0.9);
-        }
-        .carousel-track > *.is-center { opacity: 1; transform: scale(1); }
-        .poster-card.carousel-card { flex: 0 0 280px; }
-        .poster-card {
-            background: var(--bg-elevated); border: 1px solid var(--line);
-            border-radius: 16px; overflow: hidden; cursor: pointer;
-        }
-        .poster-card .pc-img-wrap { aspect-ratio: 4 / 3; overflow: hidden; position: relative; }
-        .poster-card img { width: 100%; height: 100%; object-fit: cover; }
-        .poster-card .pc-info { padding: 16px 18px; }
-        .poster-card .pc-num { font-family: monospace; font-size: 0.72rem; color: var(--accent); font-weight: 700; }
-        .poster-card .pc-title { font-size: 1rem; font-weight: 800; margin-top: 4px; }
-        .poster-card .pc-sub { font-size: 0.8rem; color: var(--text-mute); margin-top: 4px; }
-
-        /* ============================================
-           经历时间线 (#experience)
-           ============================================ */
+        /* 经历时间线 */
         .timeline { position: relative; padding-left: 30px; }
         .timeline::before {
             content: ''; position: absolute; left: 9px; top: 6px; bottom: 6px;
             width: 2px; background: linear-gradient(to bottom, var(--accent), var(--accent-2)); opacity: 0.35;
         }
         .tl-section-label {
-            display: inline-flex; align-items: center; gap: 8px;
-            margin: 28px 0 16px; padding: 7px 14px;
-            font-weight: 800; font-size: 0.9rem; letter-spacing: 0.06em;
-            color: var(--text); background: var(--bg-elevated);
+            display: inline-flex; align-items: center; gap: 8px; margin: 28px 0 16px; padding: 7px 14px;
+            font-weight: 800; font-size: 0.9rem; letter-spacing: 0.06em; color: var(--text); background: var(--bg-elevated);
             border: 1px solid var(--accent); border-radius: 6px;
         }
         .tl-item {
-            position: relative;
-            display: grid; grid-template-columns: 180px 1fr; gap: 24px 34px;
-            padding: 28px 30px; background: var(--bg-elevated);
-            border: 1px solid var(--line); border-radius: 18px; margin-bottom: 20px;
+            position: relative; display: grid; grid-template-columns: 180px 1fr; gap: 24px 34px;
+            padding: 28px 30px; background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 18px; margin-bottom: 20px;
             transition: all 0.4s ease;
         }
         .tl-item:hover { border-color: var(--accent); box-shadow: var(--shadow-glow); }
         .tl-item.highlight {
-            background: linear-gradient(135deg, var(--accent-soft), transparent 55%), var(--bg-elevated);
-            border-color: var(--accent);
+            background: linear-gradient(135deg, var(--accent-soft), transparent 55%), var(--bg-elevated); border-color: var(--accent);
         }
         .tl-dot { position: absolute; left: -30px; top: 32px; width: 20px; height: 20px; }
         .tl-dot::before {
@@ -876,89 +424,57 @@
             background: var(--accent-gradient); box-shadow: 0 0 0 5px var(--accent-soft);
         }
         .tl-side { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
-        .tl-side .date {
-            font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 800;
-            color: var(--accent);
-        }
-        .tl-side .badge {
-            padding: 4px 10px; background: var(--accent-soft); color: var(--accent);
-            border-radius: 6px; font-weight: 700; font-size: 0.72rem;
-        }
+        .tl-side .date { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; font-weight: 800; color: var(--accent); }
+        .tl-side .badge { padding: 4px 10px; background: var(--accent-soft); color: var(--accent); border-radius: 6px; font-weight: 700; font-size: 0.72rem; }
         .tl-company { font-size: 1.28rem; font-weight: 800; margin-bottom: 4px; }
         .tl-role { font-size: 0.95rem; color: var(--text-soft); margin-bottom: 16px; font-weight: 600; }
         .tl-points { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
-        .tl-points li {
-            display: grid; grid-template-columns: 92px 1fr; gap: 14px;
-            font-size: 0.95rem; color: var(--text-soft); line-height: 1.7;
-        }
+        .tl-points li { display: grid; grid-template-columns: 92px 1fr; gap: 14px; font-size: 0.95rem; color: var(--text-soft); line-height: 1.7; }
         .pt-key { font-size: 0.8rem; font-weight: 800; color: var(--accent); padding-top: 3px; }
-        .tl-stats {
-            display: flex; gap: 34px; flex-wrap: wrap;
-            margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--line);
-        }
+        .tl-stats { display: flex; gap: 34px; flex-wrap: wrap; margin-top: 16px; padding-top: 16px; border-top: 1px dashed var(--line); }
         .tl-stat .n {
-            font-size: 1.65rem; font-weight: 900;
-            background: var(--accent-gradient);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            display: block; line-height: 1.1;
+            font-size: 1.65rem; font-weight: 900; background: var(--accent-gradient);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block; line-height: 1.1;
         }
         .tl-stat .l { font-size: 0.74rem; color: var(--text-mute); font-weight: 600; margin-top: 4px; }
         .tl-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
-        .tl-tag {
-            font-size: 0.74rem; padding: 5px 12px; background: var(--bg-soft);
-            border: 1px solid var(--line); border-radius: 6px; color: var(--text-soft); font-weight: 600;
-        }
+        .tl-tag { font-size: 0.74rem; padding: 5px 12px; background: var(--bg-soft); border: 1px solid var(--line); border-radius: 6px; color: var(--text-soft); font-weight: 600; }
         @media (max-width: 880px) {
             .tl-item { grid-template-columns: 1fr; gap: 14px; padding: 22px; }
             .tl-points li { grid-template-columns: 1fr; gap: 2px; }
         }
 
-        /* ============================================
-           关于我 (#about)
-           ============================================ */
-        .about-grid {
-            display: grid; grid-template-columns: 180px 1fr 1fr; gap: 48px; align-items: start;
-        }
+        /* 关于我 */
+        .about-grid { display: grid; grid-template-columns: 180px 1fr 1fr; gap: 48px; align-items: start; }
         .about-avatar { display: flex; flex-direction: column; align-items: center; gap: 14px; }
-        .avatar-3d-wrap { perspective: 1200px; width: 165px; height: 205px; }
+        .avatar-3d-wrap { perspective: 1200px; width: 165px; height: 215px; }
         .avatar-3d {
             width: 100%; height: 100%; border-radius: 18px; overflow: hidden;
-            background: var(--bg-elevated); border: 1.5px solid var(--line);
-            box-shadow: var(--shadow-lg); transition: transform 0.4s ease;
+            background: var(--bg-elevated); border: 1.5px solid var(--line); box-shadow: var(--shadow-lg);
         }
         .avatar-3d img { width: 100%; height: 100%; object-fit: cover; }
         .about-left p { font-size: 1.15rem; line-height: 1.85; color: var(--text); }
         .about-left p .em { color: var(--accent); font-weight: 800; }
         .about-meta-line {
-            display: flex; flex-wrap: wrap; gap: 10px 20px;
-            margin-top: 20px; padding-top: 18px; border-top: 1px dashed var(--line);
-            font-size: 0.84rem; color: var(--text-mute); font-weight: 600;
+            display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 20px; padding-top: 18px;
+            border-top: 1px dashed var(--line); font-size: 0.84rem; color: var(--text-mute); font-weight: 600;
         }
         .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
         .stat {
-            padding: 22px 20px; background: var(--bg-elevated);
-            border: 1px solid var(--line); border-radius: 16px;
+            padding: 22px 20px; background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 16px;
             position: relative; overflow: hidden; transition: all 0.35s ease;
         }
         .stat:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: var(--shadow-glow); }
-        .stat::before {
-            content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 28px;
-            background: var(--accent-gradient);
-        }
+        .stat::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 28px; background: var(--accent-gradient); }
         .stat-num { font-size: 2.1rem; font-weight: 900; color: var(--text); line-height: 1.1; margin-bottom: 6px; }
         .stat-num .plus { color: var(--accent); }
         .stat-label { font-size: 0.78rem; color: var(--text-mute); font-weight: 600; }
-        @media (max-width: 960px) {
-            .about-grid { grid-template-columns: 1fr; gap: 32px; }
-        }
+        @media (max-width: 960px) { .about-grid { grid-template-columns: 1fr; gap: 32px; } }
 
-        /* ============================================
-           技能矩阵 (#skills) & 战绩荣誉 (#honors)
-           ============================================ */
+        /* 技能矩阵 */
         .skills-wrap { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
         .skill-group {
-            padding: 28px 26px; background: var(--bg-elevated);
-            border: 1px solid var(--line); border-radius: 18px;
+            padding: 28px 26px; background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 18px;
             position: relative; transition: all 0.35s ease;
         }
         .skill-group:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: var(--shadow-glow); }
@@ -967,88 +483,64 @@
         .skill-group h4::before { content: ''; width: 6px; height: 6px; background: var(--accent-gradient); border-radius: 50%; }
         .skill-list { display: flex; flex-wrap: wrap; gap: 8px; }
         .skill-chip {
-            font-size: 0.78rem; padding: 7px 13px; background: var(--bg-soft);
-            border: 1px solid var(--line); border-radius: 8px; color: var(--text); font-weight: 600;
-            transition: all 0.3s ease;
+            font-size: 0.78rem; padding: 7px 13px; background: var(--bg-soft); border: 1px solid var(--line);
+            border-radius: 8px; color: var(--text); font-weight: 600; transition: all 0.3s ease;
         }
         .skill-chip:hover { background: var(--accent-gradient); color: #fff; border-color: transparent; transform: translateY(-2px); }
 
+        /* 战绩背书 */
         .honors-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
         .honor {
-            padding: 22px 24px; background: var(--bg-elevated);
-            border: 1px solid var(--line); border-radius: 16px;
+            padding: 22px 24px; background: var(--bg-elevated); border: 1px solid var(--line); border-radius: 16px;
             display: flex; align-items: flex-start; gap: 18px; transition: all 0.35s ease;
         }
         .honor:hover { transform: translateY(-4px); border-color: var(--accent); box-shadow: var(--shadow-glow); }
         .honor.gold { background: linear-gradient(135deg, var(--accent-gradient-soft), var(--bg-elevated)); }
         .honor .year {
-            font-family: 'JetBrains Mono', monospace; font-size: 1.25rem; font-weight: 900;
-            color: var(--accent); flex-shrink: 0; min-width: 72px;
+            font-family: 'JetBrains Mono', monospace; font-size: 1.25rem; font-weight: 900; color: var(--accent); flex-shrink: 0; min-width: 72px;
         }
         .honor .text { font-size: 0.92rem; line-height: 1.6; color: var(--text); font-weight: 600; }
 
-        /* ============================================
-           联系与战术通行证 (#contact)
-           ============================================ */
+        /* 联系合作 */
         .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
         .contact-left h2 { font-size: clamp(2rem, 4.5vw, 3.6rem); font-weight: 900; line-height: 1.1; margin-bottom: 16px; }
-        .contact-left h2 .it {
-            background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-        }
+        .contact-left h2 .it { background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .contact-sign {
-            margin-top: 40px; padding: 28px 26px;
-            background: var(--bg-elevated);
-            border: 1.5px dashed var(--accent); border-radius: 12px;
-            position: relative; box-shadow: var(--shadow-lg);
+            margin-top: 40px; padding: 28px 26px; background: var(--bg-elevated); border: 1.5px dashed var(--accent);
+            border-radius: 12px; position: relative; box-shadow: var(--shadow-lg);
         }
-        .postcard-watermark {
-            position: absolute; top: 14px; right: 20px;
-            font-size: 0.65rem; letter-spacing: 3px; font-weight: 800; color: var(--accent); opacity: 0.4;
-        }
+        .postcard-watermark { position: absolute; top: 14px; right: 20px; font-size: 0.65rem; letter-spacing: 3px; font-weight: 800; color: var(--accent); opacity: 0.4; }
         .sign-quote { display: flex; gap: 14px; margin-bottom: 22px; }
         .sign-mark { font-size: 42px; line-height: 0.85; color: var(--accent); font-weight: 900; }
         .sign-text { color: var(--text-soft); font-size: 0.94rem; line-height: 1.7; font-weight: 600; transition: all 0.3s ease; }
         .sign-text.swap { opacity: 0; transform: translateY(6px); }
-        .sign-stamp {
-            display: flex; align-items: center; gap: 18px;
-            padding-top: 18px; border-top: 1px dashed var(--line);
-        }
+        .sign-stamp { display: flex; align-items: center; gap: 18px; padding-top: 18px; border-top: 1px dashed var(--line); }
         .stamp-avatar { position: relative; cursor: pointer; flex-shrink: 0; }
         .stamp-img {
-            width: 84px; height: 84px; border-radius: 12px;
-            background: var(--bg-soft); border: 2px solid var(--accent);
-            display: flex; align-items: center; justify-content: center;
-            font-weight: 900; font-size: 1.4rem; color: var(--accent);
+            width: 80px; height: 80px; border-radius: 12px; background: var(--bg-soft); border: 2px solid var(--accent);
+            display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.4rem; color: var(--accent);
         }
         .stamp-info { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
         .stamp-label { font-size: 0.68rem; letter-spacing: 2px; color: var(--text-mute); font-weight: 700; }
         .stamp-name { font-size: 1.1rem; font-weight: 900; color: var(--text); }
         .sign-tags { display: flex; flex-wrap: wrap; gap: 6px; }
-        .tag-chip {
-            padding: 4px 10px; font-size: 0.74rem; font-weight: 700;
-            background: var(--bg-soft); border: 1px solid var(--line); border-radius: 6px; color: var(--text-soft);
-        }
+        .tag-chip { padding: 4px 10px; font-size: 0.74rem; font-weight: 700; background: var(--bg-soft); border: 1px solid var(--line); border-radius: 6px; color: var(--text-soft); }
 
         .contact-cards { display: flex; flex-direction: column; gap: 12px; }
         .contact-card-item {
-            display: flex; align-items: center; justify-content: space-between;
-            padding: 20px 24px; background: var(--bg-elevated);
-            border: 1px solid var(--line); border-radius: 14px;
-            text-decoration: none; color: var(--text); transition: all 0.35s ease; cursor: pointer;
+            display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; background: var(--bg-elevated);
+            border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: var(--text); transition: all 0.35s ease; cursor: pointer;
         }
         .contact-card-item:hover { border-color: var(--accent); transform: translateX(6px); box-shadow: var(--shadow-glow); }
         .contact-card-item .label-row { display: flex; align-items: center; gap: 14px; }
         .contact-card-item .ico {
-            width: 40px; height: 40px; border-radius: 10px; background: var(--bg-soft);
-            display: inline-flex; align-items: center; justify-content: center; color: var(--accent);
+            width: 40px; height: 40px; border-radius: 10px; background: var(--bg-soft); display: inline-flex;
+            align-items: center; justify-content: center; color: var(--accent);
         }
         .contact-card-item .ico svg { width: 18px; height: 18px; }
         .contact-card-item .info .lbl { font-size: 0.7rem; color: var(--text-mute); text-transform: uppercase; font-weight: 700; }
         .contact-card-item .info .val { font-size: 0.96rem; font-weight: 700; }
-        .contact-card-item .arrow {
-            width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line);
-            display: inline-flex; align-items: center; justify-content: center;
-        }
+        .contact-card-item .arrow { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); display: inline-flex; align-items: center; justify-content: center; }
         .contact-card-item .arrow svg { width: 14px; height: 14px; }
 
         .contact-card-status { flex-direction: column; align-items: stretch; gap: 12px; border-style: dashed; }
@@ -1057,8 +549,8 @@
         .status-title { font-size: 0.78rem; font-weight: 800; color: var(--text-soft); text-transform: uppercase; }
         .status-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
         .status-list li {
-            padding: 8px 12px; background: var(--bg-soft); border-radius: 8px;
-            border-left: 3px solid var(--accent); font-size: 0.86rem; color: var(--text-soft); font-weight: 600;
+            padding: 8px 12px; background: var(--bg-soft); border-radius: 8px; border-left: 3px solid var(--accent);
+            font-size: 0.86rem; color: var(--text-soft); font-weight: 600;
         }
         @media (max-width: 880px) { .contact-grid { grid-template-columns: 1fr; gap: 40px; } }
 
@@ -1069,34 +561,20 @@
         .reveal.in { opacity: 1; transform: translateY(0); }
 
         .to-top {
-            position: fixed; bottom: 28px; right: 28px; width: 48px; height: 48px;
-            border-radius: 50%; background: var(--text); color: var(--bg); border: none;
-            cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
-            opacity: 0; transform: translateY(20px); transition: all 0.35s ease; pointer-events: none; z-index: 50;
+            position: fixed; bottom: 28px; right: 28px; width: 48px; height: 48px; border-radius: 50%;
+            background: var(--text); color: var(--bg); border: none; cursor: pointer; display: inline-flex;
+            align-items: center; justify-content: center; opacity: 0; transform: translateY(20px); transition: all 0.35s ease;
+            pointer-events: none; z-index: 50;
         }
         .to-top.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
         .to-top svg { width: 20px; height: 20px; }
 
         .copy-toast {
             position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(20px);
-            background: var(--accent); color: #fff; padding: 10px 22px; border-radius: 999px;
-            font-size: 0.88rem; font-weight: 700; opacity: 0; transition: all 0.3s ease; pointer-events: none; z-index: 200;
+            background: var(--accent); color: #fff; padding: 10px 22px; border-radius: 999px; font-size: 0.88rem;
+            font-weight: 700; opacity: 0; transition: all 0.3s ease; pointer-events: none; z-index: 200;
         }
         .copy-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
-
-        /* 灯箱 */
-        .lightbox {
-            position: fixed; inset: 0; background: rgba(0, 0, 0, 0.92); z-index: 1000;
-            display: flex; align-items: center; justify-content: center; padding: 40px;
-            opacity: 0; pointer-events: none; transition: opacity 0.3s ease;
-        }
-        .lightbox.active { opacity: 1; pointer-events: auto; }
-        .lightbox img { max-width: 90%; max-height: 88vh; border-radius: 12px; }
-        .lightbox-close {
-            position: fixed; top: 28px; right: 28px; width: 44px; height: 44px;
-            border-radius: 50%; background: rgba(255,255,255,0.15); color: #fff;
-            display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.5rem;
-        }
     </style>
 </head>
 <body>
@@ -1114,15 +592,15 @@
     <nav class="nav" id="nav">
         <div class="nav-logo">
             <span class="nav-logo-dot"></span>
-            <span>DIRECTOR · 作品集</span>
+            <span>谢龙援 · 作品集</span>
         </div>
         <ul class="nav-links">
-            <li><a href="#works">爆款案例</a></li>
-            <li><a href="#experience">实战履历</a></li>
+            <li><a href="#works">核心爆款</a></li>
+            <li><a href="#experience">工作履历</a></li>
             <li><a href="#about">关于我</a></li>
             <li><a href="#skills">技能体系</a></li>
-            <li><a href="#honors">核心战绩</a></li>
-            <li><a href="#contact">联系合作</a></li>
+            <li><a href="#honors">战绩背书</a></li>
+            <li><a href="#contact">联系方式</a></li>
         </ul>
         <button class="theme-toggle" id="themeBtn" aria-label="切换主题" title="切换深色/浅色模式">
             <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -1137,72 +615,69 @@
                 <div>
                     <div class="hero-eyebrow">
                         <span class="line-deco"></span>
-                        <span class="label">TIKTOK E-COMMERCE DIRECTOR · 2026</span>
+                        <span class="label">XIE LONG YUAN · PORTFOLIO</span>
                     </div>
-                    <h1 class="hero-title">
-                        <span class="hero-name-main">视觉增长主理人</span>
-                        <span class="hero-sub" id="heroSub" aria-label="TikTok电商内容主管">
-                            <span class="ch">爆</span><span class="ch">款</span><span class="ch">内</span><span class="ch">容</span><span class="ch sp"></span><span class="ch hl">操</span><span class="ch hl">盘</span><span class="ch hl">手</span>
+                    <div class="hero-title">
+                        <h1 class="hero-name-main">谢龙援</h1>
+                        <span class="hero-sub" id="heroSub" aria-label="TikTok内容主管与短视频操盘手">
+                            <span class="ch">短</span><span class="ch">视</span><span class="ch">频</span><span class="ch">内</span><span class="ch">容</span><span class="ch hl">主</span><span class="ch hl">管</span>
                         </span>
-                    </h1>
+                    </div>
 
                     <div class="hero-meta">
                         <div class="meta-item">
-                            <span class="label">核心赛道</span>
-                            <span class="val">TikTok 跨境电商 · 自然流全闭环</span>
+                            <span class="label">求职意向</span>
+                            <span class="val">内容运营 / 短视频主管 / TikTok编导</span>
                         </div>
                         <div class="meta-item">
-                            <span class="label">管理体量</span>
-                            <span class="val">日产 120+ 视频 · 月 GMV 30W+ 美金</span>
+                            <span class="label">所在地 &amp; 年龄</span>
+                            <span class="val">广州永泰 · 26岁</span>
                         </div>
                     </div>
 
                     <p class="hero-desc">
-                        专注海外 TikTok 短视频冷启动破局与规模化矩阵运营。擅长在“无模板、无行业对标”下 16 天独立打爆百万播放单品，并将爆款逻辑提炼为标准化 SOP 赋能团队，实现高 ROI 自然流变现。
+                        具备 TikTok 美区短视频从 0 到 1 冷启动及规模化复制经验。擅长新品无对标破局打样，跑出 12M+ 顶级播放爆款与单条 9W+ 刀 GMV。搭建日产 120+ 条高质视频工业化管线，带领团队稳定交付月销 30W+ 美元自然流带货基本盘。
                     </p>
 
                     <div class="hero-cta">
                         <a href="#works" class="btn btn-primary">
-                            <span>查看爆款案例</span>
-                            <span class="btn-count">$300K+</span>
+                            <span>浏览核心案例</span>
+                            <span class="btn-count">12M+</span>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
                         </a>
-                        <a href="#contact" class="btn btn-ghost">预约沟通</a>
+                        <a href="#contact" class="btn btn-ghost">直接联系我</a>
                     </div>
                 </div>
 
-                <!-- 右侧灵感宇宙 -->
+                <!-- 3D 战力宇宙 -->
                 <div class="hero-ip">
                     <div class="ip-universe" id="ipUniverse">
-                        <span class="orbiter accent" style="--a: 0deg; --r: 152px; --d: 0s;">
-                            <span class="o-ico">▶</span>100W+ 爆款
+                        <span class="orbiter accent" style="--a: 0deg; --r: 155px; --d: 0s;">
+                            <span class="o-ico">⚡</span>烧烤刷 12M+
                         </span>
-                        <span class="orbiter" style="--a: 36deg; --r: 165px; --d: 0.4s;">
-                            <span class="o-ico">⚡</span>月销 30W+ 刀
+                        <span class="orbiter" style="--a: 40deg; --r: 165px; --d: 0.4s;">
+                            <span class="o-ico">💰</span>月 GMV 30W+ 刀
                         </span>
-                        <span class="orbiter" style="--a: 72deg; --r: 150px; --d: 0.8s;">
-                            <span class="o-ico">●</span>日产 120+ 条
+                        <span class="orbiter" style="--a: 80deg; --r: 150px; --d: 0.8s;">
+                            <span class="o-ico">🎬</span>日产 120+ 条
                         </span>
-                        <span class="orbiter" style="--a: 108deg; --r: 165px; --d: 0.2s;">
-                            <span class="o-ico">◆</span>0-1 冷启动
+                        <span class="orbiter" style="--a: 120deg; --r: 165px; --d: 0.2s;">
+                            <span class="o-ico">🤖</span>AI+实拍 6M+
                         </span>
-                        <span class="orbiter" style="--a: 144deg; --r: 150px; --d: 0.6s;">
-                            <span class="o-ico">▶</span>爆款 SOP
+                        <span class="orbiter" style="--a: 160deg; --r: 150px; --d: 0.6s;">
+                            <span class="o-ico">🏆</span>汽配 TOP2
                         </span>
-                        <span class="orbiter" style="--a: 180deg; --r: 168px; --d: 1.0s;">
-                            <span class="o-ico">#</span>TikTok 自然流
+                        <span class="orbiter" style="--a: 200deg; --r: 168px; --d: 1.0s;">
+                            <span class="o-ico">📈</span>投产比 ROI 5+
                         </span>
-                        <span class="orbiter" style="--a: 216deg; --r: 150px; --d: 0.3s;">
-                            <span class="o-ico">▲</span>置景与布光
+                        <span class="orbiter" style="--a: 240deg; --r: 152px; --d: 0.3s;">
+                            <span class="o-ico">🎯</span>学步车 16天打爆
                         </span>
-                        <span class="orbiter" style="--a: 252deg; --r: 165px; --d: 0.7s;">
-                            <span class="o-ico">◉</span>数据监测表
+                        <span class="orbiter" style="--a: 280deg; --r: 165px; --d: 0.7s;">
+                            <span class="o-ico">📹</span>索尼S-LOG3
                         </span>
-                        <span class="orbiter" style="--a: 288deg; --r: 150px; --d: 0.5s;">
-                            <span class="o-ico">$</span>单条 1.3W 刀
-                        </span>
-                        <span class="orbiter" style="--a: 324deg; --r: 165px; --d: 0.9s;">
-                            <span class="o-ico">★</span>团队传帮带
+                        <span class="orbiter" style="--a: 320deg; --r: 150px; --d: 0.5s;">
+                            <span class="o-ico">🔥</span>剧情号 400W+
                         </span>
 
                         <div class="ip-core" id="ipCore">
@@ -1210,87 +685,86 @@
                             <div class="ip-ring ip-ring-1"></div>
                             <div class="ip-ring ip-ring-2"></div>
                             <div class="ip-face" id="ipFace">
-                                <!-- 可将下方 src 替换为你自己的头像路径 -->
-                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230F172A'/%3E%3Cstop offset='1' stop-color='%231E293B'/%3E%3C/linearGradient%3E%3ClinearGradient id='ac' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300F2FE'/%3E%3Cstop offset='1' stop-color='%233B82F6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='400' fill='url(%23bg)'/%3E%3Ccircle cx='200' cy='155' r='64' fill='url(%23ac)' opacity='0.9'/%3E%3Cpath d='M90 340 C90 255 310 255 310 340' fill='url(%23ac)' opacity='0.85'/%3E%3Ctext x='200' y='375' text-anchor='middle' fill='%2394A3B8' font-family='monospace' font-size='16' font-weight='bold'%3ETIKTOK DIRECTOR%3C/text%3E%3C/svg%3E" alt="头像">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230F172A'/%3E%3Cstop offset='1' stop-color='%231E293B'/%3E%3C/linearGradient%3E%3ClinearGradient id='ac' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2300F2FE'/%3E%3Cstop offset='1' stop-color='%233B82F6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='400' height='400' fill='url(%23bg)'/%3E%3Ccircle cx='200' cy='155' r='64' fill='url(%23ac)' opacity='0.9'/%3E%3Cpath d='M90 340 C90 255 310 255 310 340' fill='url(%23ac)' opacity='0.85'/%3E%3Ctext x='200' y='375' text-anchor='middle' fill='%2394A3B8' font-family='sans-serif' font-size='18' font-weight='bold'%3E谢龙援 · PRO%3C/text%3E%3C/svg%3E" alt="谢龙援">
                             </div>
-                            <span class="ip-name">DIRECTOR · PRO</span>
+                            <span class="ip-name">X · L · Y</span>
                         </div>
                     </div>
                     <div class="ip-caption">
-                        <div class="l-title">核心战力 · 商业闭环矩阵</div>
-                        <div class="l-sub">点击标签高亮聚焦 · 移动光标 3D 视差感应</div>
+                        <div class="l-title">商业实战 · 核心数据矩阵</div>
+                        <div class="l-sub">点击标签聚焦 · 移动光标体验 3D 视差</div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- ===== 跑马灯装饰条 ===== -->
+    <!-- ===== 跑马灯 ===== -->
     <div class="marquee">
         <div class="marquee-track">
-            <span class="marquee-item">TikTok E-Commerce</span>
-            <span class="marquee-item">GMV $300,000+ Monthly</span>
-            <span class="marquee-item">120+ Videos Daily</span>
-            <span class="marquee-item">0-to-1 Cold Start</span>
-            <span class="marquee-item">Organic Traffic Engine</span>
-            <span class="marquee-item">TikTok E-Commerce</span>
-            <span class="marquee-item">GMV $300,000+ Monthly</span>
-            <span class="marquee-item">120+ Videos Daily</span>
+            <span class="marquee-item">TikTok美区内容主管</span>
+            <span class="marquee-item">单条播放 12M+</span>
+            <span class="marquee-item">单条GMV 9W+刀</span>
+            <span class="marquee-item">部门日产 120+条</span>
+            <span class="marquee-item">月度GMV稳定 30W+刀</span>
+            <span class="marquee-item">0-1冷启动爆款SOP</span>
+            <span class="marquee-item">TikTok美区内容主管</span>
+            <span class="marquee-item">单条播放 12M+</span>
         </div>
     </div>
 
-    <!-- ===== 01 精选作品与案例 ===== -->
+    <!-- ===== 01 精选案例 ===== -->
     <section id="works">
         <div class="wrap">
             <div class="section-head reveal">
                 <div class="section-index"><span class="num">01</span> <span>/ Case Studies</span></div>
                 <div>
-                    <h2 class="section-title">实战 <span class="it">爆款案例</span></h2>
-                    <p class="section-kicker">涵盖从 0-1 单点打爆、多品类矩阵复制到标准化 SOP 与数据监控体系的全链路成果。</p>
+                    <h2 class="section-title">核心 <span class="it">爆款案例</span></h2>
+                    <p class="section-kicker">涵盖 TikTok 跨境电商美区打爆、白牌汽配出海、品牌短剧孵化及专业纪录片实战。</p>
                 </div>
             </div>
 
             <div class="works-summary reveal">
-                <div><b>$30W+</b><span>月稳定GMV</span></div>
+                <div><b>12M+</b><span>最高单条播放</span></div>
+                <div><b>9W+$</b><span>单条视频GMV</span></div>
+                <div><b>30W+$</b><span>月度稳定GMV</span></div>
                 <div><b>120+</b><span>部门日产视频</span></div>
-                <div><b>100W+</b><span>单条自然流爆款</span></div>
-                <div><b>$1.3W+</b><span>单视频带货额</span></div>
-                <div><b>16天</b><span>极速冷启动破局</span></div>
+                <div><b>30+条</b><span>5M+超高播放</span></div>
             </div>
 
             <div class="works-tabs reveal">
-                <button class="works-tab active" data-tab="video">爆款视频案例<span class="tab-count">6</span></button>
-                <button class="works-tab" data-tab="design">SOP与置景规范<span class="tab-count">4</span></button>
-                <button class="works-tab" data-tab="posters">数据监测看板<span class="tab-count">3</span></button>
+                <button class="works-tab active" data-tab="tiktok">TikTok跨境爆款<span class="tab-count">4</span></button>
+                <button class="works-tab" data-tab="domestic">国内电商与汽配<span class="tab-count">3</span></button>
+                <button class="works-tab" data-tab="film">品牌短剧与纪录片<span class="tab-count">3</span></button>
             </div>
 
-            <!-- 面板 1：爆款视频案例 -->
-            <div class="works-pane active" data-pane="video">
+            <!-- 分组 1: TikTok跨境爆款 -->
+            <div class="works-pane active" data-pane="tiktok">
                 <div class="video-section-title">
-                    0-1 亲自打样与部门爆款矩阵 <span class="it">Viral Case Studies · 6</span>
+                    广州赛基时代 · 美区TikTok项目操盘 <span class="it">US E-Commerce · 4</span>
                 </div>
                 <div class="works-grid">
                     <!-- 案例 1 -->
                     <div class="video-card reveal">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">0-1 Cold Start · 01</span>
+                                <span class="vc-top">Hit Case · 01</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">新品学步车：16天无对标破局 100W+ 播放</span>
+                                <span class="vc-bottom">电动烧烤刷：12M+ 超级大爆款</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230D1526'/%3E%3Ccircle cx='650' cy='100' r='220' fill='%230284C7' opacity='0.18'/%3E%3Ctext x='50' y='180' fill='%2338BDF8' font-size='28' font-family='monospace' font-weight='bold'%3E1,000,000+ VIEWS%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E婴儿学步车 0-1 冷启动%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E单条自然流 GMV 突破 $13,000 美金%3C/text%3E%3C/svg%3E" alt="学步车爆款">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230B132B'/%3E%3Ccircle cx='650' cy='120' r='200' fill='%2300F2FE' opacity='0.16'/%3E%3Ctext x='50' y='160' fill='%2338BDF8' font-size='26' font-family='monospace' font-weight='bold'%3E12,000,000+ VIEWS%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E电动烧烤刷 · 顶流打爆%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E30+条播放量5M+视频 · 矩阵现象级带货%3C/text%3E%3C/svg%3E" alt="电动烧烤刷">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 01 · VIRAL HIT</div>
-                            <h3>新品学步车 0-1 冷启动小爆款</h3>
-                            <p>公司无模板、行业无对标下，16天自拍自剪跑通首条百万级自然流带货视频。</p>
+                            <div class="v-num">/ 01 · TIKTOK US</div>
+                            <h3>电动烧烤刷 · 12M+ 顶流爆款群</h3>
+                            <p>深挖欧美烧烤季清洗痛点，打出最高单条12M+播放，矩阵共跑出 30+ 条播放破 5M+ 的爆款视频。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">痛点脚本</span>
-                                <span class="role-chip">自拍自剪</span>
-                                <span class="role-chip">模板沉淀</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">爆款打样</span>
+                                <span class="role-chip">SOP平移</span>
+                                <span class="role-chip">痛点分镜</span>
                             </div>
-                            <span class="v-size">播放 100W+ · 单条 GMV $1.3W+</span>
+                            <span class="v-size">播放量 12M+ · 矩阵规模化爆发</span>
                         </div>
                     </div>
 
@@ -1298,23 +772,23 @@
                     <div class="video-card reveal" data-delay="1">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">Category Matrix · 02</span>
+                                <span class="vc-top">AI + Live · 02</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">三代学步车升级打法：矩阵规模化放量</span>
+                                <span class="vc-bottom">AI + 实拍创新打法：单条 GMV 9W+ 刀</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230F172A'/%3E%3Ccircle cx='150' cy='350' r='220' fill='%232563EB' opacity='0.2'/%3E%3Ctext x='50' y='180' fill='%2360A5FA' font-size='28' font-family='monospace' font-weight='bold'%3ESOP REPLICATION%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E三代学步车 · 矩阵放量%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E黄金前3秒Hook裂变 · 团队平移量产%3C/text%3E%3C/svg%3E" alt="三代学步车">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230F172A'/%3E%3Ccircle cx='680' cy='320' r='220' fill='%2310B981' opacity='0.2'/%3E%3Ctext x='50' y='160' fill='%2334D399' font-size='26' font-family='monospace' font-weight='bold'%3EGMV $90,000+ SINGLE VIDEO%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3EAI + 实拍高投产带货%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E单条播放6M+ · 转化变现9W+美刀%3C/text%3E%3C/svg%3E" alt="AI实拍爆款">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 02 · MATRIX SCALE</div>
-                            <h3>三代学步车 · 爆款模型迭代与群控</h3>
-                            <p>亲自打样测试升级卖点，提炼高转化分镜模板平移给部门编导与剪辑。</p>
+                            <div class="v-num">/ 02 · TIKTOK US</div>
+                            <h3>AI + 实拍结合 · 单条 GMV 突破 9W 刀</h3>
+                            <p>结合前沿 AI 生成强视觉吸睛前3秒，拼接实操高质感镜头，实现单条6M+播放与9W+美金超高转化。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">主管打样</span>
-                                <span class="role-chip">SOP平移</span>
-                                <span class="role-chip">排期调优</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">AI生成结合</span>
+                                <span class="role-chip">实拍剪辑</span>
+                                <span class="role-chip">转化漏斗</span>
                             </div>
-                            <span class="v-size">核心利润品 · 稳定自然流产出</span>
+                            <span class="v-size">播放 6M+ · 单视频 GMV $90,000+</span>
                         </div>
                     </div>
 
@@ -1322,23 +796,23 @@
                     <div class="video-card reveal" data-delay="2">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">Home Appliance · 03</span>
+                                <span class="vc-top">Cold Start · 03</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">空气净化器：痛点可视化与强对比实测</span>
+                                <span class="vc-bottom">新品学步车：16天从0-1跑出 1.3W 刀</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%2309191F'/%3E%3Ccircle cx='650' cy='350' r='240' fill='%2310B981' opacity='0.16'/%3E%3Ctext x='50' y='180' fill='%2334D399' font-size='28' font-family='monospace' font-weight='bold'%3EHIGH CTR VISUALS%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E空气净化器 · 视觉实测%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E烟雾/宠物毛发极限测试 · 强转化脚本%3C/text%3E%3C/svg%3E" alt="空气净化器">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23161F30'/%3E%3Ctext x='50' y='160' fill='%2338BDF8' font-size='26' font-family='monospace' font-weight='bold'%3E16 DAYS ZERO TO ONE%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E新品婴儿学步车冷启动%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E无模版无对标下自拍自剪 · GMV 1.3W刀%3C/text%3E%3C/svg%3E" alt="学步车冷启动">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 03 · APPLIANCE</div>
-                            <h3>空气净化器 · 痛点视觉化带货</h3>
-                            <p>通过居家养宠/过敏源等强痛点场景置景，利用直观吸尘对比大幅拉升完播率与小黄车点击。</p>
+                            <div class="v-num">/ 03 · TIKTOK US</div>
+                            <h3>学步车 0-1 破局 · 单条小爆款 1.3W 刀</h3>
+                            <p>在公司无模板、行业无对标下，16天自拍自剪打磨出30W播放小爆款，单条直接产出1.3W刀GMV。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">置景布光</span>
-                                <span class="role-chip">视觉实验</span>
-                                <span class="role-chip">转化漏斗</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">编导自拍自剪</span>
+                                <span class="role-chip">0-1开荒</span>
+                                <span class="role-chip">痛点提炼</span>
                             </div>
-                            <span class="v-size">高客单价 · 强种草转化</span>
+                            <span class="v-size">16天破局 · 单条 GMV $1.3W</span>
                         </div>
                     </div>
 
@@ -1346,137 +820,131 @@
                     <div class="video-card reveal">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">Kitchen Tech · 04</span>
+                                <span class="vc-top">Multi-Category · 04</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">原汁机品类：ASMR 沉浸式出汁爽感视频</span>
+                                <span class="vc-bottom">空气净化器 / 原汁机 / 婴儿床边床</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23111827'/%3E%3Ccircle cx='400' cy='225' r='220' fill='%230EA5E9' opacity='0.15'/%3E%3Ctext x='50' y='180' fill='%2338BDF8' font-size='28' font-family='monospace' font-weight='bold'%3EASMR &amp; LIFESTYLE%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E原汁机 · 沉浸式场景打法%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E高饱和度布光 + 节奏卡点剪辑SOP%3C/text%3E%3C/svg%3E" alt="原汁机">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%2309191F'/%3E%3Ctext x='50' y='160' fill='%2334D399' font-size='26' font-family='monospace' font-weight='bold'%3EMULTI-CATEGORY SCALE%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E多品类打样与主管SOP平移%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E日产120+视频 · 月稳定GMV 30W+刀%3C/text%3E%3C/svg%3E" alt="多品类矩阵">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 04 · KITCHEN</div>
-                            <h3>原汁机 · 沉浸式质感与功能实测</h3>
-                            <p>制定厨房暖调质感布光标准与特写机位规范，解决小家电同质化严重问题。</p>
+                            <div class="v-num">/ 04 · MANAGEMENT</div>
+                            <h3>多品类打样 · 日产120+短视频管线</h3>
+                            <p>主管前置跑通空气净化器、原汁机、床边床模版，输出置景与剪辑标准，带领团队日产120+条。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">灯光指导</span>
-                                <span class="role-chip">分镜模板</span>
-                                <span class="role-chip">批量复制</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">置景布光指导</span>
+                                <span class="role-chip">SOP平移</span>
+                                <span class="role-chip">团队管理</span>
                             </div>
-                            <span class="v-size">高完播率 · 多账号矩阵分发</span>
+                            <span class="v-size">日产 120+ 条 · 月 GMV 稳定 $30W+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 分组 2: 国内电商与汽配 -->
+            <div class="works-pane" data-pane="domestic">
+                <div class="video-section-title">
+                    杭州泓播传媒 · 汽配与箱包类目 <span class="it">Auto &amp; Bags · 3</span>
+                </div>
+                <div class="works-grid">
+                    <div class="video-card reveal">
+                        <div class="video-stage">
+                            <div class="video-cover">
+                                <span class="vc-top">Auto Parts · 01</span>
+                                <span class="vc-icon">▶</span>
+                                <span class="vc-bottom">白牌汽配 TikTok：小类目 TOP2</span>
+                            </div>
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%231E1B4B'/%3E%3Ctext x='50' y='160' fill='%23818CF8' font-size='26' font-family='monospace' font-weight='bold'%3EROI 5+ &amp; TOP 2%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E汽配类目冷启动爆单%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E单条播放5.5M+ · 单月视频GMV突破5W%3C/text%3E%3C/svg%3E" alt="汽配出海">
+                        </div>
+                        <div class="v-info">
+                            <div class="v-num">/ 01 · TIKTOK AUTO</div>
+                            <h3>白牌汽配从 0 到 1 · 打造 5.5M+ 爆款</h3>
+                            <p>在无头部模板下2周内自然流破5000+，投产比ROI达到5以上，单月GMV达5W，2个月跃居小类目TOP2。</p>
+                            <div class="v-role">
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">0-1独立操盘</span>
+                                <span class="role-chip">ROI投产优化</span>
+                                <span class="role-chip">数据反哺</span>
+                            </div>
+                            <span class="v-size">播放 5.5M+ · ROI 5+ · 细分类目 TOP2</span>
                         </div>
                     </div>
 
-                    <!-- 案例 5 -->
                     <div class="video-card reveal" data-delay="1">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">Baby Gear · 05</span>
+                                <span class="vc-top">Bags &amp; Taobao · 02</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">婴儿摇篮：宝妈痛点共鸣与哄睡场景构建</span>
+                                <span class="vc-bottom">箱包类目：月独立摄制 80+ 产品视频</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230B132B'/%3E%3Ctext x='50' y='180' fill='%2338BDF8' font-size='28' font-family='monospace' font-weight='bold'%3EMOTHER &amp; BABY%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E智能婴儿摇篮 · 痛点打法%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E精准击中欧美宝妈解放双手痛点%3C/text%3E%3C/svg%3E" alt="婴儿摇篮">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230F172A'/%3E%3Ctext x='50' y='160' fill='%2338BDF8' font-size='26' font-family='monospace' font-weight='bold'%3ES-LOG3 &amp; DAVINCI%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E索尼S-LOG3 工业化摄制%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E月均独立完成80件产品 · 30+淘宝主图%3C/text%3E%3C/svg%3E" alt="箱包摄制">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 05 · BABY GEAR</div>
-                            <h3>智能婴儿摇篮 · 情绪共鸣与卖点拆解</h3>
-                            <p>从欧美家庭真实育儿场景切入，跑通高客单价母婴用品的自然流信任转化链路。</p>
+                            <div class="v-num">/ 02 · E-COMMERCE</div>
+                            <h3>电商主图与信息流 · 索尼SLOG3全流程</h3>
+                            <p>结合卖点设计实操场景，使用索尼SLOG3拍摄与达芬奇专业调色，建立标准化信息流素材标签库。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">受众洞察</span>
-                                <span class="role-chip">打样测试</span>
-                                <span class="role-chip">数据复盘</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">SLOG3拍摄</span>
+                                <span class="role-chip">达芬奇调色</span>
+                                <span class="role-chip">素材库归档</span>
                             </div>
-                            <span class="v-size">母婴核心线 · 稳定贡献GMV</span>
+                            <span class="v-size">月产 80+ 产品视频 · 影视级成片</span>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <!-- 案例 6 -->
-                    <div class="video-card reveal" data-delay="2">
+            <!-- 分组 3: 品牌短剧与纪录片 -->
+            <div class="works-pane" data-pane="film">
+                <div class="video-section-title">
+                    富丽真金 &amp; 地大传媒 · IP孵化与专业影像 <span class="it">Films &amp; Series · 3</span>
+                </div>
+                <div class="works-grid">
+                    <div class="video-card reveal">
                         <div class="video-stage">
                             <div class="video-cover">
-                                <span class="vc-top">Team Pipeline · 06</span>
+                                <span class="vc-top">Drama IP · 01</span>
                                 <span class="vc-icon">▶</span>
-                                <span class="vc-bottom">日产 120+ 视频：工业化内容流水线体系</span>
+                                <span class="vc-bottom">抖音剧情号“富丽千金”：单条突破 400W+</span>
                             </div>
-                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23090D16'/%3E%3Ctext x='50' y='180' fill='%2310B981' font-size='28' font-family='monospace' font-weight='bold'%3E120+ DAILY OUTPUT%3C/text%3E%3Ctext x='50' y='240' fill='%23FFFFFF' font-size='42' font-family='sans-serif' font-weight='bold'%3E月稳定 30W+ 美金矩阵%3C/text%3E%3Ctext x='50' y='295' fill='%2394A3B8' font-size='22' font-family='sans-serif'%3E账号排期 / 发布时区 / 人员分工全统筹%3C/text%3E%3C/svg%3E" alt="矩阵流水线">
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%231C1917'/%3E%3Ctext x='50' y='160' fill='%23F59E0B' font-size='26' font-family='monospace' font-weight='bold'%3E4,000,000+ VIEWS%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E品牌内容IP“富丽千金”%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E从0到1孵化 · 多条自然流破50W-100W+%3C/text%3E%3C/svg%3E" alt="富丽千金">
                         </div>
                         <div class="v-info">
-                            <div class="v-num">/ 06 · MANAGEMENT</div>
-                            <h3>多品类矩阵统筹与产能峰值管理</h3>
-                            <p>动态调整账号内容形式、发布时间、发布条数及人员排班，确保月度 GMV 稳定 30W+ 刀。</p>
+                            <div class="v-num">/ 01 · DRAMA IP</div>
+                            <h3>品牌IP“富丽千金”从0到1与短剧拍摄</h3>
+                            <p>负责剧本打磨与拍摄剪辑，单条最高播放突破400W+；并受邀参拍抖音短剧《萌妻休想逃》多集制作。</p>
                             <div class="v-role">
-                                <span class="v-role-label">核心贡献</span>
-                                <span class="role-chip">产能管理</span>
-                                <span class="role-chip">矩阵策略</span>
-                                <span class="role-chip">团队培训</span>
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">IP剧本</span>
+                                <span class="role-chip">短剧拍摄</span>
+                                <span class="role-chip">故事叙事</span>
                             </div>
-                            <span class="v-size">日产 120+ 条 · 月 GMV $300,000+</span>
+                            <span class="v-size">播放 400W+ · 抖音爆款短剧经验</span>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <!-- 面板 2：SOP与置景规范 -->
-            <div class="works-pane" data-pane="design">
-                <div class="works-subtitle">标准化爆款 SOP 手册 <span style="color:var(--text-mute);font-size:0.85rem;margin-left:8px;">点击卡片可放大预览</span></div>
-                <div class="carousel">
-                    <div class="carousel-track">
-                        <div class="poster-card carousel-card is-center">
-                            <div class="pc-img-wrap">
-                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 450'%3E%3Crect width='600' height='450' fill='%230F172A'/%3E%3Ctext x='40' y='120' fill='%2338BDF8' font-size='24' font-family='monospace'%3ESOP MODULE 01%3C/text%3E%3Ctext x='40' y='180' fill='%23FFF' font-size='34' font-weight='bold'%3E前3秒黄金Hook脚本库%3C/text%3E%3Ctext x='40' y='240' fill='%2394A3B8' font-size='20'%3E痛点反问 / 视觉奇观 / 强对比实验%3C/text%3E%3C/svg%3E" alt="SOP 1">
+                    <div class="video-card reveal" data-delay="1">
+                        <div class="video-stage">
+                            <div class="video-cover">
+                                <span class="vc-top">Documentary · 02</span>
+                                <span class="vc-icon">▶</span>
+                                <span class="vc-bottom">湖北都市频道《地大物博》栏目主拍</span>
                             </div>
-                            <div class="pc-info">
-                                <div class="pc-num">/ 01 · SCRIPT SOP</div>
-                                <div class="pc-title">前 3 秒黄金 Hook 模版库</div>
-                                <div class="pc-sub">新员工 3 天上手标准分镜</div>
+                            <img class="vc-img" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23064E3B'/%3E%3Ctext x='50' y='160' fill='%2334D399' font-size='26' font-family='monospace' font-weight='bold'%3ETV BROADCAST MAIN CAM%3C/text%3E%3Ctext x='50' y='225' fill='%23FFFFFF' font-size='38' font-family='sans-serif' font-weight='bold'%3E电视台大型纪录片主拍%3C/text%3E%3Ctext x='50' y='285' fill='%2394A3B8' font-size='20'%3E湘西一、三期拍摄主拍 · 科考纪录片跟拍%3C/text%3E%3C/svg%3E" alt="地大物博">
+                        </div>
+                        <div class="v-info">
+                            <div class="v-num">/ 02 · DOCUMENTARY</div>
+                            <h3>电视台纪录片《地大物博》与校庆 MV 主拍</h3>
+                            <p>主拍地质大学70周年校歌《七秩荣光》MV，跟拍湖北科考纪录片《地理人生》，拥有沉稳扎实的专业镜头语言。</p>
+                            <div class="v-role">
+                                <span class="v-role-label">职责</span>
+                                <span class="role-chip">现场主拍</span>
+                                <span class="role-chip">非专业演员调度</span>
+                                <span class="role-chip">机位协调</span>
                             </div>
-                        </div>
-                        <div class="poster-card carousel-card">
-                            <div class="pc-img-wrap">
-                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 450'%3E%3Crect width='600' height='450' fill='%230F172A'/%3E%3Ctext x='40' y='120' fill='%2338BDF8' font-size='24' font-family='monospace'%3ESOP MODULE 02%3C/text%3E%3Ctext x='40' y='180' fill='%23FFF' font-size='34' font-weight='bold'%3E实景置景与商业布光指南%3C/text%3E%3Ctext x='40' y='240' fill='%2394A3B8' font-size='20'%3E欧美家庭感还原 / 主辅光机位图解%3C/text%3E%3C/svg%3E" alt="SOP 2">
-                            </div>
-                            <div class="pc-info">
-                                <div class="pc-num">/ 02 · STUDIO SOP</div>
-                                <div class="pc-title">置景与灯光机位标准手册</div>
-                                <div class="pc-sub">手把手指导拍摄质感拉齐</div>
-                            </div>
-                        </div>
-                        <div class="poster-card carousel-card">
-                            <div class="pc-img-wrap">
-                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 450'%3E%3Crect width='600' height='450' fill='%230F172A'/%3E%3Ctext x='40' y='120' fill='%2310B981' font-size='24' font-family='monospace'%3ESOP MODULE 03%3C/text%3E%3Ctext x='40' y='180' fill='%23FFF' font-size='34' font-weight='bold'%3E高转化节奏剪辑规范%3C/text%3E%3Ctext x='40' y='240' fill='%2394A3B8' font-size='20'%3E0.8秒切镜率 / 痛点字幕 / CTA挂载%3C/text%3E%3C/svg%3E" alt="SOP 3">
-                            </div>
-                            <div class="pc-info">
-                                <div class="pc-num">/ 03 · EDITING SOP</div>
-                                <div class="pc-title">剪辑节奏与网感包装规范</div>
-                                <div class="pc-sub">保障日产 120+ 条高合格率</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 面板 3：数据监测看板 -->
-            <div class="works-pane" data-pane="posters">
-                <div class="works-subtitle">全量视频数据监测表体系 <span style="color:var(--text-mute);font-size:0.85rem;margin-left:8px;">用数据反哺内容迭代</span></div>
-                <div class="works-grid">
-                    <div class="image-card">
-                        <div class="ic-stage">
-                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230B111E'/%3E%3Ctext x='50' y='160' fill='%2338BDF8' font-size='26' font-family='monospace'%3EDATA TRACKING 01%3C/text%3E%3Ctext x='50' y='220' fill='%23FFF' font-size='38' font-weight='bold'%3E单视频全生命周期追踪表%3C/text%3E%3Ctext x='50' y='280' fill='%2394A3B8' font-size='22'%3E5s完播率 / 平均播放时长 / 互动率 / GPM%3C/text%3E%3C/svg%3E" alt="数据表1">
-                        </div>
-                        <div class="ic-info">
-                            <div class="ic-num">/ 01 · METRICS TABLE</div>
-                            <h3>每条视频精细化数据追踪表</h3>
-                            <p>记录每条发出视频的核心漏斗指标，精准定位爆款基因与流失节点。</p>
-                        </div>
-                    </div>
-                    <div class="image-card">
-                        <div class="ic-stage">
-                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%230B111E'/%3E%3Ctext x='50' y='160' fill='%2310B981' font-size='26' font-family='monospace'%3EDATA TRACKING 02%3C/text%3E%3Ctext x='50' y='220' fill='%23FFF' font-size='38' font-weight='bold'%3E账号发布矩阵与时区排期表%3C/text%3E%3Ctext x='50' y='280' fill='%2394A3B8' font-size='22'%3E发布时间A/B测试 / 每日条数配比 / 人员排班%3C/text%3E%3C/svg%3E" alt="数据表2">
-                        </div>
-                        <div class="ic-info">
-                            <div class="ic-num">/ 02 · MATRIX SCHEDULE</div>
-                            <h3>矩阵账号发布策略调控表</h3>
-                            <p>根据后台数据表现，动态调整各品类账号的内容形式、发布频次与人员分工。</p>
+                            <span class="v-size">专业纪录片镜头沉淀 · 稳定输出</span>
                         </div>
                     </div>
                 </div>
@@ -1490,71 +958,138 @@
             <div class="section-head reveal">
                 <div class="section-index"><span class="num">02</span> <span>/ Experience</span></div>
                 <div>
-                    <h2 class="section-title">实战 <span class="it">工作履历</span></h2>
-                    <p class="section-kicker">从单兵突击打造百万爆款，到执掌日产 120+ 条视频的内容部门，只用业绩和数据说话。</p>
+                    <h2 class="section-title">职业 <span class="it">工作经历</span></h2>
+                    <p class="section-kicker">从专业影视摄像、品牌IP编导，到执掌日产百条的 TikTok 电商内容主管。</p>
                 </div>
             </div>
 
             <div class="timeline">
-                <!-- 主管阶段 -->
+                <!-- 赛基时代 -->
                 <div class="tl-item highlight reveal">
                     <span class="tl-dot"></span>
                     <div class="tl-side">
-                        <span class="date">晋升后 — 至今</span>
-                        <span class="badge">核心管理岗</span>
+                        <span class="date">2025.10 — 至今</span>
+                        <span class="badge">内容主管</span>
                     </div>
                     <div class="tl-main">
-                        <h3 class="tl-company">跨境电商短视频部门 · 内容主管</h3>
-                        <p class="tl-role">全面负责部门视频内容产出、多品类打样、SOP培训与商业化GMV交付</p>
+                        <h3 class="tl-company">广州赛基时代 · TikTok 内容主管</h3>
+                        <p class="tl-role">美区短视频全盘统筹 · 爆款打样 · SOP 赋能 · 商业化变现</p>
                         <ul class="tl-points">
-                            <li><b class="pt-key">多品操盘</b>经手空气净化器、原汁机、婴儿摇篮、三代学步车等多个核心品类，主导各品类冷启动与放量。</li>
-                            <li><b class="pt-key">前置打样</b>每个新品类前期均亲自下场实操测试，跑通高转化视频模版后，1:1零门槛平移给部门同事批量复制。</li>
-                            <li><b class="pt-key">团队赋能</b>手把手指导部门编导与剪辑解决置景、布光、拍摄机位与剪辑节奏问题，带动部门产能稳定在日均 120+ 条。</li>
-                            <li><b class="pt-key">矩阵运营</b>对全矩阵账号的内容形式、发布时间、发布条数以及人员安排进行动态调优，部门每月视频 GMV 稳定突破 30W+ 美金。</li>
-                            <li><b class="pt-key">数据闭环</b>建立完整的数据监测表格体系，追踪每条视频核心转化指标，每周复盘反哺内容迭代。</li>
+                            <li><b class="pt-key">0-1开荒打爆</b>公司8月成立短视频部，10月以编导身份加入，无模板无对标下16天自拍自剪做出新品学步车30W播放小爆款，单条GMV 1.3W刀。</li>
+                            <li><b class="pt-key">晋升主管操盘</b>晋升内容主管全面负责美区内容，经手空气净化器、原汁机、婴儿床边床、三代学步车、电动烧烤刷等核心品类。</li>
+                            <li><b class="pt-key">超高播放爆款</b>操盘电动烧烤刷最高播放破 12M+；结合 AI+实拍做出 6M+ 爆款（GMV 9W+ 刀）；全团队共跑出 30+ 条播放破 5M+ 的大爆款。</li>
+                            <li><b class="pt-key">SOP平移带人</b>坚持“主管前置打样”，验证爆款模型后1:1平移给团队，指导员工置景、布光、机位与剪辑，具备极强的带人经验与人效管理能力。</li>
+                            <li><b class="pt-key">日产百条管理</b>搭建日产 120+ 条短视频流水线，动态调整账号排期与人员排班，带领团队稳定实现月度视频 GMV 30W+ 美刀（自然流为主）。</li>
+                            <li><b class="pt-key">数据追踪体系</b>搭建涵盖前3秒完播率、互动率、CTR、CVR及单视频GMV的监测表格，以数据反哺内容敏捷迭代。</li>
                         </ul>
                         <div class="tl-stats">
-                            <div class="tl-stat"><span class="n">$30W+</span><span class="l">月均稳定 GMV</span></div>
-                            <div class="tl-stat"><span class="n">120+</span><span class="l">部门日产视频</span></div>
-                            <div class="tl-stat"><span class="n">4+</span><span class="l">主力打爆品类</span></div>
-                            <div class="tl-stat"><span class="n">100%</span><span class="l">数据表格化追踪</span></div>
+                            <div class="tl-stat"><span class="n">12M+</span><span class="l">最高单条播放</span></div>
+                            <div class="tl-stat"><span class="n">$30W+</span><span class="l">月度稳定 GMV</span></div>
+                            <div class="tl-stat"><span class="n">120+ 条</span><span class="l">部门日均产能</span></div>
+                            <div class="tl-stat"><span class="n">30+ 条</span><span class="l">5M+级超级爆款</span></div>
                         </div>
                         <div class="tl-tags">
-                            <span class="tl-tag">团队管理</span>
+                            <span class="tl-tag">TikTok美区</span>
                             <span class="tl-tag">爆款SOP搭建</span>
-                            <span class="tl-tag">置景拍摄指导</span>
-                            <span class="tl-tag">账号矩阵策略</span>
-                            <span class="tl-tag">数据监测看板</span>
+                            <span class="tl-tag">团队管理</span>
+                            <span class="tl-tag">AI+实拍</span>
+                            <span class="tl-tag">自然流带货</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- 编导破局阶段 -->
+                <!-- 泓播传媒 -->
                 <div class="tl-item reveal" data-delay="1">
                     <span class="tl-dot"></span>
                     <div class="tl-side">
-                        <span class="date">8月建部 · 10月入职</span>
-                        <span class="badge">0-1 破局先锋</span>
+                        <span class="date">2025.04 — 2025.10</span>
+                        <span class="badge">TikTok编导</span>
                     </div>
                     <div class="tl-main">
-                        <h3 class="tl-company">跨境电商短视频部门 · TikTok 编导</h3>
-                        <p class="tl-role">新品 0-1 冷启动 · 独立自编自导自拍自剪</p>
+                        <h3 class="tl-company">杭州泓播传媒有限公司 · 电商主图 / 信息流 / TikTok 编导</h3>
+                        <p class="tl-role">跨境汽配账号从0到1 · 箱包主图与信息流专业摄制</p>
                         <ul class="tl-points">
-                            <li><b class="pt-key">开荒破局</b>公司8月刚成立短视频部门，10月入职时面临“公司内部无成熟模版、行业内无现成对标”的双重空白局面。</li>
-                            <li><b class="pt-key">极限产出</b>独立承担新品学步车从痛点挖掘、脚本策划、实景拍摄到后期剪辑的全流程闭环。</li>
-                            <li><b class="pt-key">单条打爆</b>仅用 16 天时间完成从 0 到 1 破局，制作出一条播放量破 100W+ 的自然流小爆款视频，单条直接转化 GMV 达 1.3W 美金，奠定部门爆款基因。</li>
+                            <li><b class="pt-key">汽配0-1破局</b>操盘白牌汽配 TikTok 账号从0到1，在暂无头部模板下打造爆款视频，2周内自然流破5000+，单条视频广告投产比达到 ROI 5+。</li>
+                            <li><b class="pt-key">细分赛道TOP2</b>实现单月视频 GMV 5W 突破，2个月通过团队合力达到小类目 TOP2，成功打造单条播放超 5.5M 爆款。</li>
+                            <li><b class="pt-key">专业工业摄制</b>负责箱包类目拍摄剪辑，月独立完成 80 件产品视频（30+款淘宝主图），索尼 SLOG3 拍摄结合达芬奇专业调色交付。</li>
+                            <li><b class="pt-key">电商底层逻辑</b>完成从传统影视到电商带货的深度转型，具备独立分析数据漏斗与商业底层逻辑的实战经验。</li>
                         </ul>
                         <div class="tl-stats">
-                            <div class="tl-stat"><span class="n">16 天</span><span class="l">0-1 极速破局</span></div>
-                            <div class="tl-stat"><span class="n">100W+</span><span class="l">单条自然流播放</span></div>
-                            <div class="tl-stat"><span class="n">$1.3W</span><span class="l">单视频直接GMV</span></div>
+                            <div class="tl-stat"><span class="n">ROI 5+</span><span class="l">单视频广告投产</span></div>
+                            <div class="tl-stat"><span class="n">TOP 2</span><span class="l">类目排位达标</span></div>
+                            <div class="tl-stat"><span class="n">5.5M+</span><span class="l">单条视频播放</span></div>
                         </div>
                         <div class="tl-tags">
-                            <span class="tl-tag">无对标冷启动</span>
-                            <span class="tl-tag">自拍自剪</span>
-                            <span class="tl-tag">自然流打爆</span>
-                            <span class="tl-tag">高转化脚本</span>
+                            <span class="tl-tag">白牌汽配</span>
+                            <span class="tl-tag">SLOG3工作流</span>
+                            <span class="tl-tag">达芬奇调色</span>
+                            <span class="tl-tag">ROI投产优化</span>
                         </div>
+                    </div>
+                </div>
+
+                <!-- 富丽真金家纺 -->
+                <div class="tl-item reveal" data-delay="1">
+                    <span class="tl-dot"></span>
+                    <div class="tl-side">
+                        <span class="date">2023.06 — 2025.04</span>
+                        <span class="badge">短剧/品牌策划</span>
+                    </div>
+                    <div class="tl-main">
+                        <h3 class="tl-company">富丽真金家纺 · 短剧拍摄剪辑 / 品牌策划</h3>
+                        <p class="tl-role">品牌内容 IP“富丽千金”从0到1孵化 · 招商留资转化 · 商业短剧拍摄</p>
+                        <ul class="tl-points">
+                            <li><b class="pt-key">IP从0到1</b>主导剧情号“富丽千金”拍摄剪辑，1~2天剧本打磨、2天摄制，多条视频自然流突破 50W+、100W+，单条最高播放突破 400W+。</li>
+                            <li><b class="pt-key">商业短剧摄制</b>受邀参与短剧《萌妻休想逃》52/53/63/64/65-70 集一线实操拍摄，掌握快节奏剧情叙事与情绪卡点。</li>
+                            <li><b class="pt-key">招商转化交付</b>负责活动形象、主图与宣传视频；拍摄招商宣传视频成功吸引 60 人次留资，直接撬动 2 位加盟商签约。</li>
+                        </ul>
+                        <div class="tl-stats">
+                            <div class="tl-stat"><span class="n">400W+</span><span class="l">剧情单条播放</span></div>
+                            <div class="tl-stat"><span class="n">60 人留资</span><span class="l">招商视频转化</span></div>
+                        </div>
+                        <div class="tl-tags">
+                            <span class="tl-tag">抖音短剧</span>
+                            <span class="tl-tag">品牌IP孵化</span>
+                            <span class="tl-tag">商业招商转化</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 地大传媒与美创 -->
+                <div class="tl-item reveal" data-delay="2">
+                    <span class="tl-dot"></span>
+                    <div class="tl-side">
+                        <span class="date">2021.01 — 2023.05</span>
+                        <span class="badge">专业影视主拍</span>
+                    </div>
+                    <div class="tl-main">
+                        <h3 class="tl-company">湖南地大传媒 &amp; 湖南美创传媒 · 纪录片 / 宣传片摄影师</h3>
+                        <p class="tl-role">电视台栏目主拍 · 纪录片跟拍 · 政府企业高端宣传片摄制</p>
+                        <ul class="tl-points">
+                            <li><b class="pt-key">电视台主拍</b>担任湖北都市频道大型栏目《地大物博》湘西第一期、三期主拍，用克制深沉的镜头记录人文纪实。</li>
+                            <li><b class="pt-key">纪录片实战</b>参与湖北境内为期1个月的地理科考纪录片《地理人生》跟拍，建立严苛复杂环境下的稳定出片能力。</li>
+                            <li><b class="pt-key">MV与大事件</b>主拍地大校歌《七秩荣光》MV，调度指导非专业校友演员；参与70周年校庆宣传片拍摄及现场直播游机。</li>
+                            <li><b class="pt-key">信息流拍摄</b>外接皇家小虎速食、苏尔木剧情、俏皮羊秦岭溯源等品牌信息流拍摄；早期在美创传媒历练7个月成长为主拍。</li>
+                        </ul>
+                        <div class="tl-tags">
+                            <span class="tl-tag">电视台栏目主拍</span>
+                            <span class="tl-tag">科考纪录片</span>
+                            <span class="tl-tag">影视级灯光视效</span>
+                            <span class="tl-tag">游机直播调度</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 教育背景 -->
+                <div class="tl-item reveal" data-delay="2">
+                    <span class="tl-dot"></span>
+                    <div class="tl-side">
+                        <span class="date">2018.09 — 2021.06</span>
+                        <span class="badge">全日制大专</span>
+                    </div>
+                    <div class="tl-main">
+                        <h3 class="tl-company">湖南工业职业技术学院</h3>
+                        <p class="tl-role">全日制专科 · 奠定系统化专业技能与实战认知</p>
                     </div>
                 </div>
             </div>
@@ -1567,8 +1102,8 @@
             <div class="section-head reveal">
                 <div class="section-index"><span class="num">03</span> <span>/ About Me</span></div>
                 <div>
-                    <h2 class="section-title">关于 <span class="it">我</span></h2>
-                    <p class="section-kicker">既能在一线单兵作战打穿 0-1 冷启动，也能带队搭建日产百条的工业化内容铁军。</p>
+                    <h2 class="section-title">关于 <span class="it">谢龙援</span></h2>
+                    <p class="section-kicker">“或许没有所谓的天赋，但我拥有极强的求知欲与稳定输出爆款的能力。”</p>
                 </div>
             </div>
 
@@ -1576,39 +1111,41 @@
                 <div class="about-avatar reveal">
                     <div class="avatar-3d-wrap">
                         <div class="avatar-3d" id="avatar3d">
-                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 440'%3E%3Crect width='360' height='440' fill='%230F172A'/%3E%3Ccircle cx='180' cy='165' r='60' fill='%2338BDF8'/%3E%3Cpath d='M70 360 C70 265 290 265 290 360' fill='%2338BDF8'/%3E%3Ctext x='180' y='405' text-anchor='middle' fill='%2364748B' font-family='monospace' font-size='15'%3ETIKTOK LEADER%3C/text%3E%3C/svg%3E" alt="个人形象">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 440'%3E%3Crect width='360' height='440' fill='%230F172A'/%3E%3Ccircle cx='180' cy='165' r='60' fill='%2338BDF8'/%3E%3Cpath d='M70 360 C70 265 290 265 290 360' fill='%2338BDF8'/%3E%3Ctext x='180' y='405' text-anchor='middle' fill='%2364748B' font-family='sans-serif' font-size='16' font-weight='bold'%3E谢龙援 · 26岁%3C/text%3E%3C/svg%3E" alt="谢龙援">
                         </div>
                     </div>
                 </div>
 
                 <div class="about-left reveal" data-delay="1">
                     <p>
-                        我是一名结果导向的 <span class="em">TikTok 电商短视频主管</span>。
-                        我对公司产品的视频全流程（选品拆解、置景布光、拍摄运镜、网感剪辑）以及 <span class="em">自然流内容运营</span> 拥有极强的实操信心。
-                        坚持“主管先打样、跑通再平移”的带队原则，用标准化 SOP 与严谨的数据表格，把偶然的爆款变成团队 <span class="em">每月稳定 30W+ 美金</span> 的必然产出。
+                        我是 <span class="em">谢龙援</span>，现居广州白云永泰。
+                        拥有从传统影视纪实摄影师、商业短剧IP编导，成功转型为 <span class="em">TikTok 美区电商短视频内容主管</span> 的完整复合履历。
+                        对产品从选品卖点拆解、置景布光、机位调度、分镜剪辑到 <span class="em">自然流账号精细化运营</span> 的全流程充满绝对信心。
+                        善于将个人打爆的偶然经验提炼为可复用的工业化 SOP，带着团队稳定交付业绩。
                     </p>
                     <div class="about-meta-line">
-                        <span>🎯 核心方向：TikTok 跨境电商 / 短视频主管</span>
-                        <span>⚡ 核心壁垒：0-1打样 + 团队SOP赋能 + 自然流变现</span>
+                        <span>📍 现居：广州白云区永泰</span>
+                        <span>📱 电话：18873969245</span>
+                        <span>🎯 意向：短视频主管 / 内容运营 / 跨境电商编导</span>
                     </div>
                 </div>
 
                 <div class="about-stats reveal" data-delay="2">
                     <div class="stat">
+                        <div class="stat-num"><span data-count="12">0</span><span class="plus">M+</span></div>
+                        <div class="stat-label">单条视频最高播放</div>
+                    </div>
+                    <div class="stat">
                         <div class="stat-num"><span data-count="30">0</span><span class="plus">W+$</span></div>
-                        <div class="stat-label">月度稳定视频 GMV</div>
+                        <div class="stat-label">月度稳定带货 GMV</div>
                     </div>
                     <div class="stat">
                         <div class="stat-num"><span data-count="120">0</span><span class="plus">+</span></div>
-                        <div class="stat-label">部门日均产出视频</div>
+                        <div class="stat-label">部门日产优质视频</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-num"><span data-count="100">0</span><span class="plus">W+</span></div>
-                        <div class="stat-label">单条爆款播放量</div>
-                    </div>
-                    <div class="stat">
-                        <div class="stat-num"><span data-count="16">0</span><span class="plus">天</span></div>
-                        <div class="stat-label">无对标冷启动破局</div>
+                        <div class="stat-num"><span data-count="9">0</span><span class="plus">W+$</span></div>
+                        <div class="stat-label">单条爆款直接变现</div>
                     </div>
                 </div>
             </div>
@@ -1621,128 +1158,136 @@
             <div class="section-head reveal">
                 <div class="section-index"><span class="num">04</span> <span>/ Capabilities</span></div>
                 <div>
-                    <h2 class="section-title">全流程 <span class="it">能力矩阵</span></h2>
-                    <p class="section-kicker">从一线摄制剪辑到部门统筹运营，全链路无短板把控。</p>
+                    <h2 class="section-title">专业 <span class="it">技能矩阵</span></h2>
+                    <p class="section-kicker">扎实的影视级底层技术功底 + 敏锐的海外电商流量与转化嗅觉。</p>
                 </div>
             </div>
 
             <div class="skills-wrap">
                 <div class="skill-group reveal">
                     <span class="num">/01</span>
-                    <h4>爆款视频全流程制作</h4>
+                    <h4>TikTok 电商操盘与管理</h4>
                     <div class="skill-list">
-                        <span class="skill-chip">黄金前3秒Hook设计</span>
-                        <span class="skill-chip">痛点场景置景</span>
-                        <span class="skill-chip">商业布光与机位调度</span>
-                        <span class="skill-chip">自拍自剪全闭环</span>
-                        <span class="skill-chip">Premiere Pro / 剪映专业版</span>
-                        <span class="skill-chip">高转化节奏剪辑</span>
+                        <span class="skill-chip">0-1新品冷启动打样</span>
+                        <span class="skill-chip">爆款SOP标准化平移</span>
+                        <span class="skill-chip">日产120+流水线管理</span>
+                        <span class="skill-chip">账号矩阵排期调优</span>
+                        <span class="skill-chip">自然流带货底层逻辑</span>
+                        <span class="skill-chip">团队技能传帮带</span>
                     </div>
                 </div>
                 <div class="skill-group reveal" data-delay="1">
                     <span class="num">/02</span>
-                    <h4>TikTok 自然流矩阵运营</h4>
+                    <h4>影视级摄制与调色</h4>
                     <div class="skill-list">
-                        <span class="skill-chip">0-1 新品冷启动</span>
-                        <span class="skill-chip">无对标独立开荒</span>
-                        <span class="skill-chip">发布时段与频次策略</span>
-                        <span class="skill-chip">账号内容形式迭代</span>
-                        <span class="skill-chip">小黄车CTR优化</span>
-                        <span class="skill-chip">多品类横向复制</span>
+                        <span class="skill-chip">索尼S-LOG3工作流</span>
+                        <span class="skill-chip">达芬奇专业调色</span>
+                        <span class="skill-chip">商业电影级布灯置景</span>
+                        <span class="skill-chip">镜头分镜设计</span>
+                        <span class="skill-chip">多机位/游机现场调度</span>
+                        <span class="skill-chip">自拍自剪全闭环</span>
                     </div>
                 </div>
                 <div class="skill-group reveal" data-delay="2">
                     <span class="num">/03</span>
-                    <h4>团队管理与 SOP 赋能</h4>
+                    <h4>后期剪辑与前沿 AI 结合</h4>
                     <div class="skill-list">
-                        <span class="skill-chip">主管前置打样机制</span>
-                        <span class="skill-chip">爆款模版1:1平移</span>
-                        <span class="skill-chip">新人拍摄剪辑传帮带</span>
-                        <span class="skill-chip">日产120+产能统筹</span>
-                        <span class="skill-chip">人员排班与绩效协同</span>
-                        <span class="skill-chip">跨部门选品沟通</span>
+                        <span class="skill-chip">AI+实拍创新结合</span>
+                        <span class="skill-chip">前3秒黄金Hook抓人设计</span>
+                        <span class="skill-chip">Premiere Pro</span>
+                        <span class="skill-chip">剪映专业版</span>
+                        <span class="skill-chip">Photoshop</span>
+                        <span class="skill-chip">短剧卡点节奏把控</span>
                     </div>
                 </div>
                 <div class="skill-group reveal" data-delay="3">
                     <span class="num">/04</span>
-                    <h4>数据监测与商业分析</h4>
+                    <h4>数据监测与转化漏斗</h4>
                     <div class="skill-list">
-                        <span class="skill-chip">全量视频数据监测表</span>
-                        <span class="skill-chip">5秒完播率诊断</span>
-                        <span class="skill-chip">互动率与转化漏斗</span>
-                        <span class="skill-chip">单视频GMV追踪</span>
-                        <span class="skill-chip">A/B测试复盘</span>
+                        <span class="skill-chip">前3秒完播率分析</span>
+                        <span class="skill-chip">互动率与小黄车CTR</span>
+                        <span class="skill-chip">单视频GMV生命周期监测</span>
+                        <span class="skill-chip">A/B测试与内容迭代</span>
+                        <span class="skill-chip">ROI广告投产数据反哺</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== 05 核心战绩里程碑 ===== -->
+    <!-- ===== 05 战绩背书 ===== -->
     <section id="honors">
         <div class="wrap">
             <div class="section-head reveal">
                 <div class="section-index"><span class="num">05</span> <span>/ Milestones</span></div>
                 <div>
-                    <h2 class="section-title">核心 <span class="it">业绩背书</span></h2>
-                    <p class="section-kicker">每一项指标均来自真实业务一线的实战交付。</p>
+                    <h2 class="section-title">核心 <span class="it">战绩里程碑</span></h2>
+                    <p class="section-kicker">所有数据均经受真实商业市场的洗礼，只凭战果说话。</p>
                 </div>
             </div>
 
             <div class="honors-grid">
                 <div class="honor gold reveal">
-                    <span class="year">$30W+</span>
-                    <span class="text">统筹短视频内容部门，实现月度视频 GMV 长期稳定突破 300,000+ 美元（自然流为主）</span>
+                    <span class="year">12M+</span>
+                    <span class="text">操盘电动烧烤刷最高播放突破 12M+，矩阵共产出 30+ 条播放破 5M+ 的现象级大爆款</span>
                 </div>
                 <div class="honor gold reveal" data-delay="1">
-                    <span class="year">120+条</span>
-                    <span class="text">搭建标准化内容生产流水线，带领团队实现日均稳定产出 120+ 条高质带货短视频</span>
+                    <span class="year">$30W+</span>
+                    <span class="text">主导短视频内容部门，稳定实现月度视频 GMV 30W+ 美元（纯自然流转化为核心大盘）</span>
                 </div>
                 <div class="honor gold reveal" data-delay="2">
-                    <span class="year">$1.3W</span>
-                    <span class="text">在无模板、无对标下 16 天跑出 100W+ 播放学步车爆款，单条视频直接变现 1.3 万美金</span>
+                    <span class="year">9W+$</span>
+                    <span class="text">通过 AI+实拍创新打法，打造出单条播放 6M+、直接变现 GMV 突破 90,000+ 美元的黄金视频</span>
                 </div>
                 <div class="honor reveal" data-delay="3">
-                    <span class="year">4大品类</span>
-                    <span class="text">成功打样并跑通空气净化器、原汁机、婴儿摇篮、三代学步车等多品类爆款模型</span>
+                    <span class="year">ROI 5+</span>
+                    <span class="text">白牌汽配冷启动打磨出 5.5M+ 播放，单视频投产比超过 5，带领团队冲进小类目 TOP2</span>
+                </div>
+                <div class="honor reveal" data-delay="1">
+                    <span class="year">400W+</span>
+                    <span class="text">从 0 到 1 孵化品牌剧情号“富丽千金”，多条自然流破百万，单条爆款突破 400W+ 播放</span>
+                </div>
+                <div class="honor reveal" data-delay="2">
+                    <span class="year">16 天</span>
+                    <span class="text">新品学步车在无模板、无对标空白局面下，16天自编自导自剪打出 1.3W 刀直接变现</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== 06 联系合作 ===== -->
+    <!-- ===== 06 联系方式 ===== -->
     <section class="contact" id="contact">
         <div class="wrap">
             <div class="contact-grid">
                 <div class="contact-left reveal">
-                    <h2>随时准备<br><span class="it">创造爆款</span> ⚡</h2>
-                    <p>如果您正在寻找一位既懂一线爆款内容创作、又能带队扛起 GMV 指标的 TikTok 短视频负责人，欢迎直接联系。</p>
+                    <h2>期待与优秀的团队<br><span class="it">并肩作战</span> ⚡</h2>
+                    <p>无论您需要一位懂一线爆款制作的编导，还是能搭建日产百条内容铁军的 TikTok 主管，都欢迎随时沟通。</p>
 
                     <div class="contact-sign">
-                        <div class="postcard-watermark">EXECUTIVE PASS</div>
+                        <div class="postcard-watermark">CREATIVE PASS</div>
                         <div class="sign-quote">
                             <span class="sign-mark">“</span>
                             <p class="sign-text">
-                                没有天生自带流量的产品，只有不断被验证的痛点与分镜。<br>
-                                先亲自把 0 到 1 打穿，再带着团队把 1 复制到 100。
+                                或许没有与生俱来的天赋，但我拥有稳定输出确定性爆款的能力。<br>
+                                先在泥泞里跑通 0 到 1，再带着团队把标准从 1 复制到 100。
                             </p>
                         </div>
 
                         <div class="sign-stamp">
                             <div class="stamp-avatar" title="点击切换操盘理念">
-                                <div class="stamp-img">TK</div>
+                                <div class="stamp-img">谢</div>
                             </div>
                             <div>
                                 <div class="stamp-info">
-                                    <span class="stamp-label">CORE COMPETENCY</span>
-                                    <span class="stamp-name">TikTok 短视频内容主管</span>
+                                    <span class="stamp-label">DIRECTOR PASS</span>
+                                    <span class="stamp-name">谢龙援 · 简历名片</span>
                                 </div>
                                 <div class="sign-tags">
-                                    <span class="tag-chip">自然流操盘</span>
-                                    <span class="tag-chip">0-1打样</span>
-                                    <span class="tag-chip">SOP管理</span>
-                                    <span class="tag-chip">数据驱动</span>
-                                    <span class="tag-chip">强执行力</span>
+                                    <span class="tag-chip">TikTok美区</span>
+                                    <span class="tag-chip">自然流爆款</span>
+                                    <span class="tag-chip">主管前置打样</span>
+                                    <span class="tag-chip">日产百条SOP</span>
+                                    <span class="tag-chip">稳定输出</span>
                                 </div>
                             </div>
                         </div>
@@ -1750,30 +1295,15 @@
                 </div>
 
                 <div class="contact-cards reveal" data-delay="1">
-                    <!-- 请在下方修改你的真实邮箱、电话、微信号 -->
-                    <a href="mailto:your-email@example.com" class="contact-card-item">
-                        <div class="label-row">
-                            <span class="ico">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                            </span>
-                            <div class="info">
-                                <div class="lbl">Email 邮箱</div>
-                                <div class="val">your-email@example.com</div>
-                            </div>
-                        </div>
-                        <span class="arrow">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
-                        </span>
-                    </a>
-
-                    <a href="tel:13800000000" class="contact-card-item">
+                    <!-- 电话 -->
+                    <a href="tel:18873969245" class="contact-card-item">
                         <div class="label-row">
                             <span class="ico">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                             </span>
                             <div class="info">
-                                <div class="lbl">Phone 电话</div>
-                                <div class="val">138-0000-0000</div>
+                                <div class="lbl">Phone / 手机联系</div>
+                                <div class="val">188 7396 9245</div>
                             </div>
                         </div>
                         <span class="arrow">
@@ -1781,14 +1311,15 @@
                         </span>
                     </a>
 
-                    <div class="contact-card-item" id="wechatItem" data-copy="YourWeChatID">
+                    <!-- 微信 -->
+                    <div class="contact-card-item" id="wechatItem" data-copy="18873969245">
                         <div class="label-row">
                             <span class="ico">
                                 <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 8.5C8.5 6 10.5 4 13 4s4.5 2 4.5 4.5c0 .6-.1 1.2-.4 1.7l.7.7c.9-.7 1.5-1.7 1.5-2.9C18.8 5.4 17 3.6 14.5 3.6c-1.2 0-2.3.5-3.2 1.2.4.4.8.9 1 1.5.6-.5 1.3-.7 2.1-.7C16 5.6 17.6 7 17.6 8.7c0 .7-.3 1.4-.7 1.9.5.1 1 .3 1.5.6.4-.7.7-1.5.7-2.5 0-2.5-2.1-4.6-4.6-4.6-.8 0-1.5.2-2.1.5C12.9 5.5 12.9 5.4 13 5.4c.6-.9 1.5-1.5 2.6-1.5 1.8 0 3.2 1.4 3.2 3.2 0 .7-.2 1.4-.6 1.9l1 1.1c.5-.6.8-1.4.8-2.3 0-2.2-1.8-4-4-4-1 0-2 .4-2.7 1.1.3.5.5 1.1.5 1.7z"/></svg>
                             </span>
                             <div class="info">
-                                <div class="lbl">WeChat 微信（点击复制）</div>
-                                <div class="val">YourWeChatID</div>
+                                <div class="lbl">WeChat / 微信（点击直接复制）</div>
+                                <div class="val">18873969245</div>
                             </div>
                         </div>
                         <span class="arrow">
@@ -1796,15 +1327,16 @@
                         </span>
                     </div>
 
+                    <!-- 当前状态 -->
                     <div class="contact-card-item contact-card-status">
                         <div class="status-head">
                             <span class="status-pulse"></span>
-                            <span class="status-title">当前状态 / Current Focus</span>
+                            <span class="status-title">求职状态 / Career Status</span>
                         </div>
                         <ul class="status-list">
-                            <li>🔥 核心优势 · 视频全流程闭环 + 团队规模化SOP管理</li>
-                            <li>📊 业绩底盘 · 日产120+视频 / 月稳定GMV 30W+美金</li>
-                            <li>🚀 期待机会 · TikTok短视频主管 / 内容负责人 / 跨境电商运营</li>
+                            <li>🎯 意向岗位：短视频内容主管 / TikTok编导 / 跨境内容运营</li>
+                            <li>📍 意向城市：广州（现居白云永泰，可随时到岗交流）</li>
+                            <li>⚡ 核心竞争力：懂前线摄制剪辑 + 跑得通SOP + 扛得起GMV指标</li>
                         </ul>
                     </div>
                 </div>
@@ -1815,8 +1347,8 @@
     <footer>
         <div class="wrap">
             <div class="footer-grid">
-                <div>© 2026 <span class="num">TIKTOK DIRECTOR</span> · 个人商业作品集</div>
-                <div>按键盘 <kbd>T</kbd> 可快速切换深空黑 / 钛银白主题</div>
+                <div>© 2026 <span class="num">谢龙援</span> · 个人求职与商业作品集</div>
+                <div>按键盘 <kbd>T</kbd> 键快速切换暗夜黑 / 钛银浅色模式</div>
             </div>
         </div>
     </footer>
@@ -1852,7 +1384,7 @@
             html.setAttribute('data-theme', next);
         });
 
-        // 滚动揭示动画
+        // 滚动揭示
         const reveals = document.querySelectorAll('.reveal');
         const io = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -1909,7 +1441,7 @@
             });
         }
 
-        // 顶部阅读进度条与返回顶部
+        // 阅读进度条
         const progressFill = document.querySelector('#scrollProgress span');
         const toTop = document.getElementById('toTop');
         window.addEventListener('scroll', () => {
@@ -1920,7 +1452,7 @@
         }, { passive: true });
         toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-        // 3D 视差卡片
+        // 3D 视差
         function bind3D(el, max = 12) {
             if (!el) return;
             el.addEventListener('mousemove', (e) => {
@@ -1934,7 +1466,7 @@
         bind3D(document.getElementById('ipFace'), 12);
         bind3D(document.getElementById('avatar3d'), 16);
 
-        // 灵感宇宙点击卫星聚焦
+        // 灵感宇宙标签聚焦
         const ipUni = document.getElementById('ipUniverse');
         if (ipUni) {
             const focusLabel = document.createElement('span');
@@ -1952,13 +1484,14 @@
             });
         }
 
-        // 底部通行证点击切换寄语
+        // 理念切换
         const signText = document.querySelector('.sign-text');
         const stampAvatar = document.querySelector('.stamp-avatar');
         if (signText && stampAvatar) {
             const lines = [
-                '没有天生自带流量的产品，只有不断被验证的痛点与分镜。<br>先亲自把 0 到 1 打穿，再带着团队把 1 复制到 100。',
-                '日产 120+ 条不是靠盲目堆砌人力，<br>而是靠拆解到每一个机位、每一盏灯的标准化 SOP。'
+                '或许没有与生俱来的天赋，但我拥有稳定输出确定性爆款的能力。<br>先在泥泞里跑通 0 到 1，再带着团队把标准从 1 复制到 100。',
+                '自然流的本质是击穿痛点。<br>用前 3 秒锁住注意力，用真实场景完成信任转化。',
+                '日产 120+ 条从来不是盲目堆量，<br>而是把置景、布光、机位调度拆解成全员执行的标准化 SOP。'
             ];
             let si = 0;
             stampAvatar.addEventListener('click', () => {
@@ -1971,12 +1504,12 @@
             });
         }
 
-        // 副标题错峰动画
+        // 错峰进场动画
         document.querySelectorAll('#heroSub .ch').forEach((ch, i) => {
-            ch.style.animationDelay = (0.3 + i * 0.07) + 's';
+            ch.style.animationDelay = (0.3 + i * 0.08) + 's';
         });
 
-        // 快捷键 T 切换主题
+        // 键盘 T 键切换主题
         document.addEventListener('keydown', (e) => {
             if (e.key.toLowerCase() === 't' && !e.target.closest('input, textarea')) {
                 themeBtn.click();
